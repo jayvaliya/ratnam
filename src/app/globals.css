@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  /* Primary Color - Dark Blue */
+  --color-primary: #002C54;
+  --color-primary-light: #003d6b;
+  --color-primary-dark: #001c3a;
+  --color-primary-hover: #003d6b;
+  
+  /* Secondary Color - Yellow/Gold */
+  --color-secondary: #FFB300;
+  --color-secondary-light: #FFC933;
+  --color-secondary-dark: #CC8F00;
+  --color-secondary-hover: #E6A200;
+  
+  /* Background Color - Light Pink/Cream */
+  --color-background: #F0F0F0;
+  
+  /* Secondary Background Color - Light Blue */
+  --color-secondary-background: #B4D6E3;
+}
+
+
+
+/* This is overriding other styles in the app */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+body {
+  font-family: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333;
+  background-color: #FDF6F6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
