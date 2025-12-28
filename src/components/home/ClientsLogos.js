@@ -1,6 +1,7 @@
 'use client';
 
 import { clientBrands } from '@/data/clientBrands';
+import Image from 'next/image';
 
 export default function ClientsLogos() {
   return (
@@ -19,9 +20,16 @@ export default function ClientsLogos() {
                 key={`row1-${index}`}
                 className="flex-shrink-0 w-64 mx-3"
               >
-                <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 flex items-center justify-center border border-gray-200/50 hover:border-primary hover:shadow-md transition h-32">
-                  <div className="text-gray-400 font-medium text-center">
-                    {brand.name}
+                <div className="bg-white/80 backdrop-blur-sm rounded-lg p-6 flex items-center justify-center border border-gray-200/50 hover:border-primary hover:shadow-md transition h-32">
+                  <div className="relative w-full h-20">
+                    <Image
+                      src={brand.logo}
+                      alt={`${brand.name} logo`}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 256px"
+                      className="object-contain"
+                      style={{ maxWidth: '100%', maxHeight: '100%' }}
+                    />
                   </div>
                 </div>
               </div>
@@ -32,14 +40,21 @@ export default function ClientsLogos() {
         {/* Second Row - scrolling left with 50% offset */}
         <div className="relative">
           <div className="flex animate-scroll-left-delayed">
-            {[...clientBrands, ...clientBrands, ...clientBrands, ...clientBrands].map((brand, index) => (
+            {[...clientBrands, ...clientBrands, ...clientBrands, ...clientBrands].reverse().map((brand, index) => (
               <div 
                 key={`row2-${index}`}
                 className="flex-shrink-0 w-64 mx-3"
               >
-                <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 flex items-center justify-center border border-gray-200/50 hover:border-primary hover:shadow-md transition h-32">
-                  <div className="text-gray-400 font-medium text-center">
-                    {brand.name}
+                <div className="bg-white/80 backdrop-blur-sm rounded-lg p-6 flex items-center justify-center border border-gray-200/50 hover:border-primary hover:shadow-md transition h-32">
+                  <div className="relative w-full h-20">
+                    <Image
+                      src={brand.logo}
+                      alt={`${brand.name} logo`}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 256px"
+                      className="object-contain"
+                      style={{ maxWidth: '100%', maxHeight: '100%' }}
+                    />
                   </div>
                 </div>
               </div>

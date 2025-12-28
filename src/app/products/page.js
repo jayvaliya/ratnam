@@ -1,109 +1,95 @@
 'use client';
 
 import { useState } from 'react';
-import { brands } from '@/data/brands';
-import Link from 'next/link';
+import { productsData, highlightedCompanies } from '@/data/products';
+import ProductCard from '@/components/products/ProductCard';
+import BrandLogo from '@/components/products/BrandLogo';
+import HighlightedBrands from '@/components/products/HighlightedBrands';
 
 export default function Products() {
-  const [selectedBrand, setSelectedBrand] = useState('all');
+  const [selectedCategory, setSelectedCategory] = useState('all');
 
-  const filteredBrands = selectedBrand === 'all' 
-    ? brands 
-    : brands.filter(brand => brand.slug === selectedBrand);
+  const filteredCategories = selectedCategory === 'all' 
+    ? productsData 
+    : productsData.filter(category => category.slug === selectedCategory);
 
   return (
     <div className="min-h-screen bg-background">
       {/* Page Header */}
       <section className="bg-gradient-to-r from-primary to-primary-dark text-white py-16">
         <div className="container mx-auto px-4">
-          <h1 className="text-4xl md:text-5xl font-bold text-center">Products</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-center">Our Products</h1>
           <p className="text-center opacity-90 mt-4 text-lg">
-            Explore our wide range of electrical products from leading brands
+            Comprehensive range of electrical products from world-class brands
           </p>
         </div>
       </section>
 
-      {/* Brand Filter */}
-      <section className="py-8 bg-white border-b border-gray-200">
+      {/* Highlighted Companies */}
+      <HighlightedBrands companies={highlightedCompanies} />
+
+      {/* Category Filter */}
+      <section className="py-8 bg-gray-50 border-b border-gray-200">
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap gap-3 justify-center">
             <button
-              onClick={() => setSelectedBrand('all')}
+              onClick={() => setSelectedCategory('all')}
               className={`px-6 py-2 rounded-md font-medium transition ${
-                selectedBrand === 'all'
+                selectedCategory === 'all'
                   ? 'bg-secondary text-white hover:bg-secondary-hover'
-                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                  : 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-300'
               }`}
             >
-              All Brands
+              All Categories
             </button>
-            {brands.map((brand) => (
+            {productsData.map((category) => (
               <button
-                key={brand.id}
-                onClick={() => setSelectedBrand(brand.slug)}
+                key={category.id}
+                onClick={() => setSelectedCategory(category.slug)}
                 className={`px-6 py-2 rounded-md font-medium transition ${
-                  selectedBrand === brand.slug
+                  selectedCategory === category.slug
                     ? 'bg-secondary text-white hover:bg-secondary-hover'
-                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                    : 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-300'
                 }`}
               >
-                {brand.name}
+                {category.category}
               </button>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Products Grid */}
+      {/* Products by Category */}
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {filteredBrands.map((brand) => (
-              <div
-                key={brand.id}
-                id={brand.slug}
-                className="bg-white rounded-lg shadow-md hover:shadow-xl transition p-8 border border-gray-200"
-              >
-                <h3 className="text-2xl font-bold text-primary mb-3">{brand.name}</h3>
-                <p className="text-gray-600 font-semibold mb-4">{brand.category}</p>
-                <p className="text-gray-600 mb-6">{brand.description}</p>
+          {filteredCategories.map((category) => (
+            <div key={category.id} id={category.slug} className="mb-16">
+              {/* Category Header */}
+              <div className="mb-8">
+                <h2 className="text-3xl font-bold text-primary mb-3">{category.category}</h2>
+                <p className="text-gray-600 mb-6">{category.description}</p>
                 
-                {brand.name === 'Newtek' && (
-                  <div className="mb-4">
-                    <p className="text-sm text-gray-600 mb-2">Product Types:</p>
-                    <ul className="list-disc list-inside text-sm text-gray-600 space-y-1">
-                      <li>Window Transformers</li>
-                      <li>Split Core Transformers</li>
-                      <li>ID Types</li>
-                      <li>WPL Types</li>
-                    </ul>
-                  </div>
-                )}
-
-                {brand.name === 'Connectwell' && (
-                  <div className="mb-4">
-                    <p className="text-sm text-gray-600 mb-2">Product Types:</p>
-                    <ul className="list-disc list-inside text-sm text-gray-600 space-y-1">
-                      <li>Interface Modules</li>
-                      <li>DIN Rail Sockets</li>
-                      <li>Switches</li>
-                    </ul>
-                  </div>
-                )}
-
-                <Link
-                  href="/contact-us"
-                  className="inline-block bg-primary text-white px-6 py-2 rounded-md hover:bg-primary-hover transition font-medium shadow-sm"
-                >
-                  Get Quote
-                </Link>
+                {/* Category Companies */}
+                <div className="flex flex-wrap gap-4 mb-6">
+                  <span className="text-sm font-semibold text-gray-700">Available Brands:</span>
+                  {category.companies.map((company, idx) => (
+                    <BrandLogo key={idx} company={company} size="lg" />
+                  ))}
+                </div>
               </div>
-            ))}
-          </div>
 
-          {filteredBrands.length === 0 && (
+              {/* Products Grid */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+                {category.products.map((product, idx) => (
+                  <ProductCard key={idx} product={product} />
+                ))}
+              </div>
+            </div>
+          ))}
+
+          {filteredCategories.length === 0 && (
             <div className="text-center py-12">
-              <p className="text-gray-600 text-lg">No products found for the selected brand.</p>
+              <p className="text-gray-600 text-lg">No products found for the selected category.</p>
             </div>
           )}
         </div>
