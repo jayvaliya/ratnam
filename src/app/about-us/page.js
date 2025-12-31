@@ -2,7 +2,7 @@ import { Award, Users, Heart } from 'lucide-react';
 
 export default function AboutUs() {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-white">
       {/* Page Header */}
       <section className="bg-gradient-to-r from-primary to-primary-dark text-white py-16">
         <div className="container mx-auto px-4">
@@ -11,26 +11,23 @@ export default function AboutUs() {
       </section>
 
       {/* Company History */}
-      <section className="py-16 bg-background">
+      <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Our Story</h2>
-              <div className="text-5xl font-bold text-primary mb-4">2.5+</div>
-              <p className="text-2xl font-semibold text-gray-700 mb-8">Years Of Experience</p>
             </div>
 
             <div className="prose prose-lg max-w-none">
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                Ratnam Enterprise has been in the market since 2000. 
-                Since then, our products have successfully reached throughout India, establishing us as a trusted 
-                name in the electrical industry.
+                Ratnam Enterprise is a trusted name in the electrical industry, with our products 
+                successfully reaching customers throughout India.
               </p>
               
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
                 We are a trusted seller and stockist of premium electrical products including Lauritz Knudsen (L&T Switchgears), 
                 Polycab, and other quality brands in India. Our commitment to quality products, competitive pricing, 
-                and customer satisfaction has been our driving force for over two decades.
+                and customer satisfaction drives everything we do.
               </p>
             </div>
           </div>
@@ -38,7 +35,7 @@ export default function AboutUs() {
       </section>
 
       {/* Mission & Values */}
-      <section className="py-16 bg-background">
+      <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
@@ -57,10 +54,10 @@ export default function AboutUs() {
 
               <div className="bg-white/80 backdrop-blur-sm p-8 rounded-lg shadow-md border border-gray-200/50">
                 <Users className="w-12 h-12 text-primary mb-4" />
-                <h3 className="text-2xl font-bold text-primary mb-4">Expertise & Experience</h3>
+                <h3 className="text-2xl font-bold text-primary mb-4">Professional Service</h3>
                 <p className="text-gray-600">
-                  Our extensive knowledge base ensures that customers throughout India receive 
-                  top-notch service and support from our experienced team.
+                  Our dedicated team ensures that customers throughout India receive 
+                  top-notch service and support for all their electrical product needs.
                 </p>
               </div>
 
@@ -78,7 +75,7 @@ export default function AboutUs() {
       </section>
 
       {/* Market Presence */}
-      <section className="py-16 bg-background">
+      <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8">Established Market Presence</h2>

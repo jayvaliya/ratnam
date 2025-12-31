@@ -1,10 +1,11 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { brands } from '@/data/brands';
-import { ChevronRight, ImageIcon } from 'lucide-react';
+import { ChevronRight } from 'lucide-react';
 
 export default function BrandsShowcase() {
   return (
-    <section className="py-16 bg-background">
+    <section className="py-16 bg-transparent overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Brands</h2>
@@ -14,11 +15,16 @@ export default function BrandsShowcase() {
           {brands.map((brand) => (
             <div 
               key={brand.id}
-              className="bg-white/80 backdrop-blur-sm rounded-lg shadow-md hover:shadow-xl transition overflow-hidden border border-gray-200/50 hover:border-primary"
+              className="bg-gray-100 backdrop-blur-sm rounded-lg shadow-md hover:shadow-xl transition overflow-hidden border border-gray-200/50 hover:border-primary"
             >
-              {/* Image placeholder - top half */}
-              <div className="w-full aspect-[4/3] bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
-                <ImageIcon className="w-16 h-16 text-gray-400" />
+              {/* Brand Image */}
+              <div className="w-full bg-white aspect-[4/3] flex items-center justify-center relative">
+                <Image
+                  src={brand.image}
+                  alt={`${brand.name} logo`}
+                  fill
+                  className="object-contain p-6"
+                />
               </div>
               
               {/* Content - bottom half */}

@@ -5,11 +5,11 @@ import Image from 'next/image';
 
 export default function ClientsLogos() {
   return (
-    <section className="py-16 bg-background overflow-hidden">
+    <section className="py-16 md:py-20 bg-transparent overflow-hidden">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-2">We Are</h2>
-          <p className="text-xl font-semibold text-primary mb-8">Trusted Sellers & Stockists</p>
+        <div className="text-center mb-14">
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-3">We Are</h2>
+          <p className="text-xl md:text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent mb-8">Trusted Sellers & Stockists</p>
         </div>
 
         {/* First Row - scrolling left */}

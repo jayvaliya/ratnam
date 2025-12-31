@@ -13,25 +13,8 @@ export default function Footer() {
               <img src="/images/logos/logo.png" alt="Ratnam Enterprise" className="h-12 brightness-0 invert" />
             </Link>
             <p className="text-sm mb-4">
-              RATNAM ENTERPRISE has been in the market since 2000 and since then our products successfully reached throughout the India.
+              RATNAM ENTERPRISE is a trusted seller and stockist of premium electrical products, successfully serving customers throughout India.
             </p>
-            <div className="mt-4">
-              <span className="text-sm block mb-3">Follow us</span>
-              <div className="flex space-x-3">
-                <a href="#" className="hover:text-white transition" aria-label="Facebook">
-                  <Facebook className="w-5 h-5" />
-                </a>
-                <a href="#" className="hover:text-white transition" aria-label="Twitter">
-                  <Twitter className="w-5 h-5" />
-                </a>
-                <a href="#" className="hover:text-white transition" aria-label="LinkedIn">
-                  <Linkedin className="w-5 h-5" />
-                </a>
-                <a href="#" className="hover:text-white transition" aria-label="Instagram">
-                  <Instagram className="w-5 h-5" />
-                </a>
-              </div>
-            </div>
           </div>
 
           {/* Useful Links */}
@@ -81,11 +64,16 @@ export default function Footer() {
             <div className="space-y-3 text-sm">
               <div className="flex items-start space-x-2">
                 <MapPin className="w-4 h-4 text-secondary mt-1 flex-shrink-0" />
-                <p>
-                  Shop No. 6, Plot No. BG-74A, Jay Tulja Bhavani Complex<br />
-                  Telco Road, MIDC, Bhosari,<br />
-                  Pune - 411 026, Maharashtra.
-                </p>
+                <a 
+                  href="https://maps.app.goo.gl/FsfFHYS44GuDRE1M6"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition"
+                >
+                  Telco Road, Near Quality Circle,<br />
+                  Bhosari MIDC,<br />
+                  Pune - 411026, Maharashtra.
+                </a>
               </div>
               <div className="flex items-start space-x-2">
                 <Mail className="w-4 h-4 text-secondary mt-0.5 flex-shrink-0" />
@@ -100,10 +88,15 @@ export default function Footer() {
               <div className="flex items-start space-x-2">
                 <Phone className="w-4 h-4 text-secondary mt-0.5 flex-shrink-0" />
                 <div>
-                  <span className="font-medium">Contact</span>
+                  <span className="font-medium">Akshat Khodifad</span>
                   <br />
                   <a href="tel:9429094277" className="hover:text-white transition">
-                    94290 94277
+                    9429094277
+                  </a>
+                  <br />
+                  <span className="font-medium mt-2 block">Office</span>
+                  <a href="tel:9426074277" className="hover:text-white transition">
+                    9426074277
                   </a>
                 </div>
               </div>

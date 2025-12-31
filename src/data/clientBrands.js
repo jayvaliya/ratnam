@@ -6,7 +6,7 @@ export const clientBrands = [
   { id: 5, name: "Braco", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRDn1Pd-xVTr7H7LgYe_uzk0YxqjEJrsrFWQ&s" },
   { id: 6, name: "Newtek", logo: "https://content3.jdmagicbox.com/v2/comp/aurangabad-maharashtra/r9/9999px240.x240.090910145727.w7r9/catalogue/newtek-electricals-waluj-midc-aurangabad-maharashtra-electrical-transformer-manufacturers-ancvdvakdj.jpg" },
   { id: 7, name: "Connectwell", logo: "https://d8it4huxumps7.cloudfront.net/images/partners/new_organisation_image-LGVDTGheTy18284757981euqqkUHZv.png?d=120x120" },
-  { id: 8, name: "Esbee", logo: "https://www.esbee.in/images/logo.png" },
+  { id: 8, name: "Esbee", logo: "https://media.licdn.com/dms/image/v2/C4D0BAQGafcI2sJJgDQ/company-logo_200_200/company-logo_200_200/0/1674466885937?e=1768435200&v=beta&t=Q8AlAWBl744YS2JDwAWo5ClDiKFv5FIEGak53lsM0IU" },
   { id: 9, name: "Schneider Electric", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Schneider_Electric_2007.svg/330px-Schneider_Electric_2007.svg.png?20150906005100" },
   { id: 10, name: "Siemens", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Siemens_AG_logo.svg/1200px-Siemens_AG_logo.svg.png" },
   { id: 11, name: "ABB", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/ABB_logo.svg/2560px-ABB_logo.svg.png" },

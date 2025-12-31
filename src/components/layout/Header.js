@@ -23,8 +23,13 @@ export default function Header() {
           <div className="flex items-center space-x-6">
             <div className="flex items-center space-x-2">
               <Phone className="w-4 h-4 text-primary" />
-              <span className="text-gray-600 font-medium">Call Us Now</span>
-              <a href="tel:9429094277" className="text-primary font-semibold hover:underline">94290 94277</a>
+              <span className="text-gray-600 font-medium">Akshat Khodifad</span>
+              <a href="tel:9429094277" className="text-primary font-semibold hover:underline">9429094277</a>
+            </div>
+            <div className="flex items-center space-x-2">
+              <Phone className="w-4 h-4 text-primary" />
+              <span className="text-gray-600 font-medium">Office</span>
+              <a href="tel:9426074277" className="text-primary font-semibold hover:underline">9426074277</a>
             </div>
             <div className="flex items-center space-x-2">
               <Mail className="w-4 h-4 text-primary" />
@@ -111,8 +116,13 @@ export default function Header() {
               <div className="pb-3 border-b border-gray-200 mb-3">
                 <div className="flex items-center space-x-2 mb-2">
                   <Phone className="w-4 h-4 text-primary" />
-                  <span className="text-gray-600 text-sm">Call:</span>
-                  <a href="tel:9429094277" className="text-primary text-sm font-semibold">94290 94277</a>
+                  <span className="text-gray-600 text-sm">Akshat:</span>
+                  <a href="tel:9429094277" className="text-primary text-sm font-semibold">9429094277</a>
+                </div>
+                <div className="flex items-center space-x-2 mb-2">
+                  <Phone className="w-4 h-4 text-primary" />
+                  <span className="text-gray-600 text-sm">Office:</span>
+                  <a href="tel:9426074277" className="text-primary text-sm font-semibold">9426074277</a>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Mail className="w-4 h-4 text-primary" />
