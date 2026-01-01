@@ -7,8 +7,8 @@ export default function ProductCard({ product }) {
       {/* Product Image */}
       <div className="relative w-full h-48 bg-white flex items-center justify-center">
         <Image
-          // src={product.image}
-          src = "https://media.licdn.com/dms/image/v2/C4D12AQFwGLUbmQnBhQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1569061933437?e=1768435200&v=beta&t=6hFewNhGMFm2gcpph7rXHzD5Ug_IoLde6CPQ9UimCh4"
+          src={product.image}
+          // src = "https://media.licdn.com/dms/image/v2/C4D12AQFwGLUbmQnBhQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1569061933437?e=1768435200&v=beta&t=6hFewNhGMFm2gcpph7rXHzD5Ug_IoLde6CPQ9UimCh4"
           alt={product.alt}
           fill
           className="object-contain p-4 group-hover:scale-105 transition-transform duration-300"
