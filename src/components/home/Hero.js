@@ -43,7 +43,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative w-full h-[300px] md:h-[400px] lg:h-[600px] overflow-hidden bg-gray-900">
+    <section className="relative w-full h-[180px] md:h-[350px] lg:h-[600px] overflow-hidden bg-gray-900">
       {/* Slides */}
       <div className="relative w-full h-full">
         {slides.map((slide, index) => (
@@ -60,7 +60,7 @@ export default function Hero() {
             <img
               src={slide}
               alt={`Slide ${index + 1}`}
-              className="w-full h-full object-cover object-top"
+              className="w-full h-auto min-h-full object-cover object-top"
             />
           </div>
         ))}
@@ -69,23 +69,23 @@ export default function Hero() {
       {/* Previous Button */}
       <button
         onClick={prevSlide}
-        className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-3 rounded-full shadow-lg transition-all duration-300 hover:scale-110 z-10"
+        className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-2 md:p-3 rounded-full shadow-lg transition-all duration-300 hover:scale-110 z-10"
         aria-label="Previous slide"
       >
-        <ChevronLeft className="w-6 h-6" />
+        <ChevronLeft className="w-4 h-4 md:w-6 md:h-6" />
       </button>
 
       {/* Next Button */}
       <button
         onClick={nextSlide}
-        className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-3 rounded-full shadow-lg transition-all duration-300 hover:scale-110 z-10"
+        className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-2 md:p-3 rounded-full shadow-lg transition-all duration-300 hover:scale-110 z-10"
         aria-label="Next slide"
       >
-        <ChevronRight className="w-6 h-6" />
+        <ChevronRight className="w-4 h-4 md:w-6 md:h-6" />
       </button>
 
       {/* Slide Indicators */}
-      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-2 z-10">
+      <div className="absolute bottom-3 md:bottom-6 left-1/2 -translate-x-1/2 flex gap-1.5 md:gap-2 z-10">
         {slides.map((_, index) => (
           <button
             key={index}
@@ -96,9 +96,9 @@ export default function Hero() {
                 setTimeout(() => setIsTransitioning(false), 500);
               }
             }}
-            className={`w-3 h-3 rounded-full transition-all duration-300 ${
+            className={`w-2 h-2 md:w-3 md:h-3 rounded-full transition-all duration-300 ${
               index === currentSlide
-                ? 'bg-white w-8'
+                ? 'bg-white w-6 md:w-8'
                 : 'bg-white/50 hover:bg-white/75'
             }`}
             aria-label={`Go to slide ${index + 1}`}

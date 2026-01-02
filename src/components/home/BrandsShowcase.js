@@ -5,13 +5,13 @@ import { ChevronRight } from 'lucide-react';
 
 export default function BrandsShowcase() {
   return (
-    <section className="py-16 bg-transparent overflow-hidden">
+    <section className="py-12 md:py-16 bg-transparent overflow-hidden">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Brands</h2>
+        <div className="text-center mb-8 md:mb-12">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800 mb-4">Brands</h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-6">
           {brands.map((brand) => (
             <div 
               key={brand.id}
@@ -28,10 +28,10 @@ export default function BrandsShowcase() {
               </div>
               
               {/* Content - bottom half */}
-              <div className="p-6">
-                <h3 className="text-xl font-bold text-primary mb-2">{brand.name}</h3>
-                <p className="text-gray-600 font-semibold mb-3">{brand.category}</p>
-                <p className="text-gray-600 text-sm mb-4">{brand.description}</p>
+              <div className="p-4 md:p-5 lg:p-6">
+                <h3 className="text-lg md:text-xl font-bold text-primary mb-2">{brand.name}</h3>
+                <p className="text-sm md:text-base text-gray-600 font-semibold mb-2 md:mb-3">{brand.category}</p>
+                <p className="text-xs md:text-sm text-gray-600 mb-3 md:mb-4">{brand.description}</p>
                 <Link 
                   href={`/products#${brand.slug}`}
                   className="text-primary hover:text-secondary font-medium inline-flex items-center transition group"

@@ -14,8 +14,8 @@ export const productsData = [
                 logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Siemens_AG_logo.svg/1200px-Siemens_AG_logo.svg.png"
             },
             {
-                name: "L&T",
-                logo: "https://upload.wikimedia.org/wikipedia/commons/e/e5/L%26T.png?20141228172036"
+                name: "LAURITZ KNUDSEN",
+                logo: "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Fb0396db6a59b4a469e5f9c3b0cc7e8df"
             }
         ],
         products: [
@@ -167,7 +167,7 @@ export const productsData = [
             },
             {
                 name: "EIMEX",
-                logo: "https://whatthelogo.com/storage/logos/emax-electronics-273359.webp"
+                logo: "https://scontent.fbdq8-2.fna.fbcdn.net/v/t1.6435-9/39638026_2196479517060798_7707027347601358848_n.png?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=LyTfISsreKgQ7kNvwEb2xBJ&_nc_oc=AdmBz8ewWVVnL2w0R5Y7WC6zipAh5szZItDn1dTCotdV1o8TjOaixOGFkWPTyVG68xb9hUUvc9v9fUi7FsT7rrfR&_nc_zt=23&_nc_ht=scontent.fbdq8-2.fna&_nc_gid=kr_zrkV6teENkYRuk2pUXQ&oh=00_AfrbNoHO22WcO7cMpf5tJE7ycj7zGiy8ZgHXGbsdj_PmRw&oe=697F0606"
             }
         ],
         products: [
@@ -229,11 +229,11 @@ export const productsData = [
             },
             {
                 name: "Kosmos",
-                logo: "https://whatthelogo.com/storage/logos/kosmos-energy-177210.webp"
+                logo: "https://kosmosindia.net/wp-content/uploads/2023/02/logo-1.png"
             },
             {
                 name: "Sibass",
-                logo: "https://scontent.fbdq8-1.fna.fbcdn.net/v/t39.30808-6/473449009_920917396811034_991356634712361486_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=BWQ_xOv4C5QQ7kNvwGXQpkT&_nc_oc=AdluHuIOBkNgIfglxJMoazfFhciY3UJH7XU6CubZ1pWvbxngeho1vfs4fgXd6E0t3xRBde98NzhzchbZAEK-Myns&_nc_zt=23&_nc_ht=scontent.fbdq8-1.fna&_nc_gid=8QcY06FuNMghiN3F9nccdQ&oh=00_AflFmZuxqlhcrTdWYsmbhrCLeJl-IScPJs6e7QZ09e4sVg&oe=6956FDA7"
+                logo: "https://scontent.fbdq8-1.fna.fbcdn.net/v/t39.30808-6/473449009_920917396811034_991356634712361486_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=w-jk7ifIPQcQ7kNvwHaUcZc&_nc_oc=Adl97c5aiUgjUzZ5yI8A3fsjUsOIA--bbt-yXKuTY61a-9h83OvrjAxeWq0cwN8jQKIbAsI_H0FdbFgCKBiF8OCJ&_nc_zt=23&_nc_ht=scontent.fbdq8-1.fna&_nc_gid=VqgSm3jtZ56af2t2o0jK6w&oh=00_Afr26g_6R13ZEHAMSThkVXvNE7tllRUnNPKbDhHcirpT_Q&oe=695D5CE7"
             }
         ],
         products: [
@@ -331,19 +331,19 @@ export const productsData = [
             },
             {
                 name: "PIA",
-                logo: "https://media.licdn.com/dms/image/v2/C4E0BAQHwDnKAn-jb9Q/company-logo_200_200/company-logo_200_200/0/1654575313270/pia_automation_logo?e=1768435200&v=beta&t=b0lfJxqb2jv-ntjTjo12M12WV0UJXk4UCwoOuC7ltVE"
+                logo: "https://img500.exportersindia.com/product_images/bc-500/2023/11/5573388/pla-relay-dealer-supplier-1646657610-6233746.jpg"
             },
-            // {
-            //     name: "ELETT",
-            //     logo: "https://example.com/brands/elett-logo.png"
-            // },
+            {
+                name: "ELETTRO",
+                logo: "https://img.thecompanycheck.com/companylogo/K.N.ELETTROINDUSTRIES_499426.webp"
+            },
             {
                 name: "REXNORD",
-                logo: "https://media.licdn.com/dms/image/v2/C4E0BAQGFNBaCureNpA/company-logo_200_200/company-logo_200_200/0/1631326101477?e=1768435200&v=beta&t=foqXc2zhghGyitwWUB45K0cnkaI9uoluoz3fwF_2P2g"
+                logo: "https://www.rexnordindia.com/Image/Rexnord.png"
             },
             {
                 name: "SIBASS",
-                logo: "https://scontent.fbdq8-1.fna.fbcdn.net/v/t39.30808-6/473449009_920917396811034_991356634712361486_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=BWQ_xOv4C5QQ7kNvwGXQpkT&_nc_oc=AdluHuIOBkNgIfglxJMoazfFhciY3UJH7XU6CubZ1pWvbxngeho1vfs4fgXd6E0t3xRBde98NzhzchbZAEK-Myns&_nc_zt=23&_nc_ht=scontent.fbdq8-1.fna&_nc_gid=8QcY06FuNMghiN3F9nccdQ&oh=00_AflFmZuxqlhcrTdWYsmbhrCLeJl-IScPJs6e7QZ09e4sVg&oe=6956FDA7"
+                logo: "https://scontent.fbdq8-1.fna.fbcdn.net/v/t39.30808-6/473449009_920917396811034_991356634712361486_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=w-jk7ifIPQcQ7kNvwHaUcZc&_nc_oc=Adl97c5aiUgjUzZ5yI8A3fsjUsOIA--bbt-yXKuTY61a-9h83OvrjAxeWq0cwN8jQKIbAsI_H0FdbFgCKBiF8OCJ&_nc_zt=23&_nc_ht=scontent.fbdq8-1.fna&_nc_gid=VqgSm3jtZ56af2t2o0jK6w&oh=00_Afr26g_6R13ZEHAMSThkVXvNE7tllRUnNPKbDhHcirpT_Q&oe=695D5CE7"
             },
             {
                 name: "JIGO",
@@ -351,11 +351,11 @@ export const productsData = [
             },
             {
                 name: "KOSMOS",
-                logo: "https://whatthelogo.com/storage/logos/kosmos-energy-177210.webp"
+                logo: "https://kosmosindia.net/wp-content/uploads/2023/02/logo-1.png"
             },
             {
                 name: "JAINSON",
-                logo: "https://media.licdn.com/dms/image/v2/C560BAQFi-C6v5pzA9A/company-logo_200_200/company-logo_200_200/0/1631384694738?e=1768435200&v=beta&t=VBwOAkoDNWs_szDOr-prj3j4XvI6Jm-u_MIMQd78wCg"
+                logo: "https://lh6.googleusercontent.com/proxy/M2Pj0voYx9-qpxgjoVNk6vh-r98XK1Q97yr9Q1tVBmNt37J8-F6tEpWbGb9OdAyzZHRCEhV5FvFIDDYxeyDicQUdVsFTa1I9F492gjM3Dw"
             },
             {
                 name: "FLUKE",
@@ -363,7 +363,7 @@ export const productsData = [
             },
             {
                 name: "MECO",
-                logo: "https://media.licdn.com/dms/image/v2/C4D0BAQGPorXCdvG1uQ/company-logo_200_200/company-logo_200_200/0/1635862084682/meco_2_logo?e=1768435200&v=beta&t=kr_J7sbacLbMnMWR2gCA0VvaLQk32-IDy9VbyZMO0nc"
+                logo: "https://static.wixstatic.com/media/c76346_c1d73d22d16c4f0d989355971cd7dfec~mv2.png/v1/fill/w_364,h_205,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Kusam%20Electrical%20Instruments%20LLP.png"
             },
             {
                 name: "TAPARIA",
@@ -541,5 +541,11 @@ export const highlightedCompanies = [
         name: "TEKNIC",
         logo: "https://media.licdn.com/dms/image/v2/C560BAQElSuTcfMEKxA/company-logo_200_200/company-logo_200_200/0/1633688559143?e=1768435200&v=beta&t=vB3dwcib7lZzcy9LLtAWXQ5AWkBkplrq9guYJdPMoU8",
         category: "Control & Signaling"
+    },
+    {
+        id: 7,
+        name: "Crompton",
+        logo: "https://media.licdn.com/dms/image/v2/C4E0BAQF_LqY9NiH0zw/company-logo_200_200/company-logo_200_200/0/1631302810364?e=1768435200&v=beta&t=eR68NBbP-Iv1FOpdERtpg37ve2qPHNYJq45XL_UQ59E",
+        category: "Electrical Products"
     }
 ];
