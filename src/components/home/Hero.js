@@ -12,6 +12,7 @@ export default function Hero() {
     '/images/slides/slide4.png',
     '/images/slides/slide5.png',
     '/images/slides/slide6.png',
+    '/images/slides/slide7.png',
   ];
   
   const [currentSlide, setCurrentSlide] = useState(0);

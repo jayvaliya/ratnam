@@ -11,14 +11,14 @@ export default function BrandsShowcase() {
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800 mb-4">Brands</h2>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6">
           {brands.map((brand) => (
             <div 
               key={brand.id}
               className="bg-gray-100 backdrop-blur-sm rounded-lg shadow-md hover:shadow-xl transition overflow-hidden border border-gray-200/50 hover:border-primary"
             >
               {/* Brand Image */}
-              <div className="w-full bg-white aspect-[4/3] flex items-center justify-center relative">
+              <div className="w-full bg-white aspect-4/3 flex items-center justify-center relative">
                 <Image
                   src={brand.image}
                   alt={`${brand.name} logo`}

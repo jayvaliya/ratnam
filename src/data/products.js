@@ -51,7 +51,7 @@ export const productsData = [
             },
             {
                 name: "Contactors",
-                image: "https://assets.new.siemens.com/siemens/assets/api/uuid:99899648b881729892e335a5902275a0b34afd01/width:100/quality:low/SIRIUS-Contactors.psd",
+                image: "https://5.imimg.com/data5/SELLER/Default/2024/5/419606354/OT/DG/YH/8639921/power-contactor-500x500.jpg",
                 alt: "Electrical Contactors",
                 description: "Electrical Contactors"
             },
@@ -163,11 +163,11 @@ export const productsData = [
         companies: [
             {
                 name: "CONNECTWELL",
-                logo: "https://d8it4huxumps7.cloudfront.net/images/partners/new_organisation_image-LGVDTGheTy18284757981euqqkUHZv.png?d=120x120"
+                logo: "https://5.imimg.com/data5/SELLER/Default/2022/3/MA/LW/IE/4201148/datalogic-s50-pr-5-c01-pp-sensor-1000x1000.png"
             },
             {
                 name: "EIMEX",
-                logo: "https://scontent.fbdq8-2.fna.fbcdn.net/v/t1.6435-9/39638026_2196479517060798_7707027347601358848_n.png?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=LyTfISsreKgQ7kNvwEb2xBJ&_nc_oc=AdmBz8ewWVVnL2w0R5Y7WC6zipAh5szZItDn1dTCotdV1o8TjOaixOGFkWPTyVG68xb9hUUvc9v9fUi7FsT7rrfR&_nc_zt=23&_nc_ht=scontent.fbdq8-2.fna&_nc_gid=kr_zrkV6teENkYRuk2pUXQ&oh=00_AfrbNoHO22WcO7cMpf5tJE7ycj7zGiy8ZgHXGbsdj_PmRw&oe=697F0606"
+                logo: "https://www.liblogo.com/img-logo/max/el5440ube0-elmex-logo-updated-elmex-crm-mod-app-download-for-pc-android-2022.png"
             }
         ],
         products: [
@@ -233,7 +233,7 @@ export const productsData = [
             },
             {
                 name: "Sibass",
-                logo: "https://scontent.fbdq8-1.fna.fbcdn.net/v/t39.30808-6/473449009_920917396811034_991356634712361486_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=w-jk7ifIPQcQ7kNvwHaUcZc&_nc_oc=Adl97c5aiUgjUzZ5yI8A3fsjUsOIA--bbt-yXKuTY61a-9h83OvrjAxeWq0cwN8jQKIbAsI_H0FdbFgCKBiF8OCJ&_nc_zt=23&_nc_ht=scontent.fbdq8-1.fna&_nc_gid=VqgSm3jtZ56af2t2o0jK6w&oh=00_Afr26g_6R13ZEHAMSThkVXvNE7tllRUnNPKbDhHcirpT_Q&oe=695D5CE7"
+                logo: "https://cpimg.tistatic.com/07533074/b/4/Sibass-Dealer-Supplier.png"
             }
         ],
         products: [
@@ -343,7 +343,7 @@ export const productsData = [
             },
             {
                 name: "SIBASS",
-                logo: "https://scontent.fbdq8-1.fna.fbcdn.net/v/t39.30808-6/473449009_920917396811034_991356634712361486_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=w-jk7ifIPQcQ7kNvwHaUcZc&_nc_oc=Adl97c5aiUgjUzZ5yI8A3fsjUsOIA--bbt-yXKuTY61a-9h83OvrjAxeWq0cwN8jQKIbAsI_H0FdbFgCKBiF8OCJ&_nc_zt=23&_nc_ht=scontent.fbdq8-1.fna&_nc_gid=VqgSm3jtZ56af2t2o0jK6w&oh=00_Afr26g_6R13ZEHAMSThkVXvNE7tllRUnNPKbDhHcirpT_Q&oe=695D5CE7"
+                logo: "https://cpimg.tistatic.com/07533074/b/4/Sibass-Dealer-Supplier.png"
             },
             {
                 name: "JIGO",
@@ -533,7 +533,7 @@ export const highlightedCompanies = [
     {
         id: 5,
         name: "CONNECTWELL",
-        logo: "https://d8it4huxumps7.cloudfront.net/images/partners/new_organisation_image-LGVDTGheTy18284757981euqqkUHZv.png?d=120x120",
+        logo: "https://5.imimg.com/data5/SELLER/Default/2022/3/MA/LW/IE/4201148/datalogic-s50-pr-5-c01-pp-sensor-1000x1000.png",
         category: "Terminal Blocks"
     },
     {

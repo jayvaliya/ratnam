@@ -1,14 +1,22 @@
 export const brands = [
   {
     id: 1,
-    name: "Lauritz Knudsen",
-    category: "Low-Voltage Switchgears",
-    description: "Lauritz & Knudsen low-voltage switchgear for safe and efficient power control.",
-    slug: "lauritz-knudsen",
-    image: "https://5.imimg.com/data5/SELLER/Default/2025/5/508283235/VO/OY/XJ/99665887/lk-logo-1000x1000.png"
+    name: "Connectwell",
+    category: "Terminal Blocks & Connectors",
+    description: "Interface Modules, DIN Rail Sockets, and Switches for versatile connectivity.",
+    slug: "connectwell",
+    image: "https://5.imimg.com/data5/SELLER/Default/2022/3/MA/LW/IE/4201148/datalogic-s50-pr-5-c01-pp-sensor-1000x1000.png"
   },
   {
     id: 2,
+    name: "Teknic",
+    category: "Control & Signaling Devices",
+    description: "Comprehensive range of control and signaling devices for industrial automation.",
+    slug: "teknic",
+    image: "https://media.licdn.com/dms/image/v2/C560BAQElSuTcfMEKxA/company-logo_200_200/company-logo_200_200/0/1633688559143?e=1768435200&v=beta&t=vB3dwcib7lZzcy9LLtAWXQ5AWkBkplrq9guYJdPMoU8"
+  },
+  {
+    id: 3,
     name: "Polycab",
     category: "Wires & Cables",
     description: "Polycab Wires & Cables: High-quality, durable solutions for all your wiring needs.",
@@ -16,52 +24,28 @@ export const brands = [
     image: "https://companieslogo.com/img/orig/POLYCAB.NS_BIG-75d2f870.png?t=1729362040"
   },
   {
-    id: 3,
-    name: "Salzer",
-    category: "Rotary & Load Break Switches",
-    description: "Rotary & Load Break Switches provide safe and reliable power control solutions.",
-    slug: "salzer",
-    image: "https://whatthelogo.com/storage/logos/salzer-electric-176881.webp"
-  },
-  {
     id: 4,
-    name: "GIC",
-    category: "Digital Timer & Monitoring Devices",
-    description: "Digital Timer & Monitoring Devices offer precise control and reliable performance.",
-    slug: "gic",
-    image: "https://media.licdn.com/dms/image/v2/D4D0BAQH99tDSiadAuQ/company-logo_200_200/company-logo_200_200/0/1688461888801/general_industrial_controls_private_limited_logo?e=1768435200&v=beta&t=YFkriGJUDAPY6lvAHeoWb3y6wy1XUofwEcs3QibzRHw"
+    name: "Schneider",
+    category: "Switchgear & Protection",
+    description: "Complete range of switchgear and protection devices for industrial applications.",
+    slug: "schneider",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Schneider_Electric_2007.svg/330px-Schneider_Electric_2007.svg.png?20150906005100"
   },
   {
     id: 5,
-    name: "Braco",
-    category: "Lugs & Glands Accessories",
-    description: "Braco Lugs & Glands Accessories ensure secure and reliable electrical connections.",
-    slug: "braco",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRDn1Pd-xVTr7H7LgYe_uzk0YxqjEJrsrFWQ&s"
+    name: "Siemens",
+    category: "Switchgear & Protection",
+    description: "Advanced switchgear and protection solutions for reliable power distribution.",
+    slug: "siemens",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Siemens_AG_logo.svg/1200px-Siemens_AG_logo.svg.png"
   },
   {
     id: 6,
-    name: "Newtek",
-    category: "Current Transformers",
-    description: "Window and Split Core Transformers, plus ID and WPL types, ensure precise current.",
-    slug: "newtek",
-    image: "https://content3.jdmagicbox.com/v2/comp/aurangabad-maharashtra/r9/9999px240.x240.090910145727.w7r9/catalogue/newtek-electricals-waluj-midc-aurangabad-maharashtra-electrical-transformer-manufacturers-ancvdvakdj.jpg"
-  },
-  {
-    id: 7,
-    name: "Esbee",
-    category: "Tower Light & Limit Switches",
-    description: "Tower Lights & Limit Switches provide clear signals and precise control.",
-    slug: "esbee",
-    image: "https://media.licdn.com/dms/image/v2/C4D0BAQGafcI2sJJgDQ/company-logo_200_200/company-logo_200_200/0/1674466885937?e=1768435200&v=beta&t=Q8AlAWBl744YS2JDwAWo5ClDiKFv5FIEGak53lsM0IU"
-  },
-  {
-    id: 8,
-    name: "Connectwell",
-    category: "Terminal Blocks & Connectors",
-    description: "Interface Modules, DIN Rail Sockets, and Switches for versatile connectivity.",
-    slug: "connectwell",
-    image: "https://d8it4huxumps7.cloudfront.net/images/partners/new_organisation_image-LGVDTGheTy18284757981euqqkUHZv.png?d=120x120"
+    name: "Lauritz Knudsen",
+    category: "Low-Voltage Switchgears",
+    description: "Lauritz & Knudsen low-voltage switchgear for safe and efficient power control.",
+    slug: "lauritz-knudsen",
+    image: "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Fb0396db6a59b4a469e5f9c3b0cc7e8df"
   }
 ];
 
