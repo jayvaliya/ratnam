@@ -22,7 +22,7 @@ export default function Industries() {
     {
       id: 4,
       name: 'Automotive & eMobility',
-      image: 'https://images.pexels.com/photos/8478221/pexels-photo-8478221.jpeg'
+      image: 'https://static.vecteezy.com/system/resources/thumbnails/038/535/094/small_2x/ai-generated-electric-car-production-line-innovative-manufacturing-in-a-modern-factory-photo.jpg'
     },
     {
       id: 5,

@@ -233,7 +233,7 @@ export const productsData = [
             },
             {
                 name: "Sibass",
-                logo: "https://cpimg.tistatic.com/07533074/b/4/Sibass-Dealer-Supplier.png"
+                logo: "https://img500.exportersindia.com/product_images/bc-500/2023/11/5573388/sibass-dealer-supplier-1646889460-6234909.jpg"
             }
         ],
         products: [
@@ -269,7 +269,7 @@ export const productsData = [
             },
             {
                 name: "Plugs and Sockets",
-                image: "https://tiimg.tistatic.com/fp/1/003/430/industrial-plugs-and-sockets-789.jpg",
+                image: "https://tiimg.tistatic.com/fp/1/006/447/industrial-plug-socket-541.jpg",
                 alt: "Industrial Plugs and Sockets",
                 description: "Industrial Plugs and Sockets"
             },
@@ -343,7 +343,7 @@ export const productsData = [
             },
             {
                 name: "SIBASS",
-                logo: "https://cpimg.tistatic.com/07533074/b/4/Sibass-Dealer-Supplier.png"
+                logo: "https://img500.exportersindia.com/product_images/bc-500/2023/11/5573388/sibass-dealer-supplier-1646889460-6234909.jpg"
             },
             {
                 name: "JIGO",
@@ -371,11 +371,15 @@ export const productsData = [
             },
             {
                 name: "ALMONARD",
-                logo: "https://media.licdn.com/dms/image/v2/C560BAQEZej2GyU5Cyg/company-logo_200_200/company-logo_200_200/0/1675750817509/almonard_pvt_ltd_logo?e=1768435200&v=beta&t=F66UhRU61PHP5L0zZnyK48z2aKlcm96FWgPPcE26UWQ"
+                logo: "https://m.media-amazon.com/images/S/aplus-media/sc/d33c1368-39e2-471a-978f-33183204eaf6.__CR0,0,970,300_PT0_SX970_V1___.png"
             },
             {
                 name: "PHILIPS",
                 logo: "https://media.licdn.com/dms/image/v2/D4E0BAQFpB8fd3m9G0w/company-logo_200_200/company-logo_200_200/0/1737552865359/philips_logo?e=1768435200&v=beta&t=3uCNwWtEsI4G2bDDzanKYGSJvjjipr0AyUY__0SEpfM"
+            },
+            {
+                name: "Crompton",
+                logo: "https://media.licdn.com/dms/image/v2/C4E0BAQF_LqY9NiH0zw/company-logo_200_200/company-logo_200_200/0/1631302810364?e=1768435200&v=beta&t=eR68NBbP-Iv1FOpdERtpg37ve2qPHNYJq45XL_UQ59E"
             }
         ],
         products: [

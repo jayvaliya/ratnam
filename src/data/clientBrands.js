@@ -14,7 +14,7 @@ export const clientBrands = [
   { id: 13, name: "HEX", logo: "https://media.licdn.com/dms/image/v2/C4E0BAQG_JkUtIK577g/company-logo_200_200/company-logo_200_200/0/1631347021430?e=1768435200&v=beta&t=-RRE5SQgoSufd9VDTr99mE_k7C5n2z9GjfyCuSkDG3U" },
   { id: 14, name: "ELETTRO", logo: "https://img.thecompanycheck.com/companylogo/K.N.ELETTROINDUSTRIES_499426.webp" },
   { id: 15, name: "REXNORD", logo: "https://www.rexnordindia.com/Image/Rexnord.png" },
-  { id: 16, name: "SIBASS", logo: "https://cpimg.tistatic.com/07533074/b/4/Sibass-Dealer-Supplier.png" },
+  { id: 16, name: "SIBASS", logo: "https://img500.exportersindia.com/product_images/bc-500/2023/11/5573388/sibass-dealer-supplier-1646889460-6234909.jpg" },
   { id: 17, name: "JIGO", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjJCRs6IQ-x4MdOpI4_U1Ifd1lxW8W-KNGiQ&s" },
   { id: 18, name: "JAINSON", logo: "https://lh6.googleusercontent.com/proxy/M2Pj0voYx9-qpxgjoVNk6vh-r98XK1Q97yr9Q1tVBmNt37J8-F6tEpWbGb9OdAyzZHRCEhV5FvFIDDYxeyDicQUdVsFTa1I9F492gjM3Dw" },
   { id: 19, name: "TAPARIA", logo: "https://media.licdn.com/dms/image/v2/C4D0BAQHUwC99-RiCdA/company-logo_200_200/company-logo_200_200/0/1631346331149?e=1768435200&v=beta&t=UcZjvZCDsM4Hwa_OzWGyzvhMn0hHjqBKNI0f5TtCqiU" }
