@@ -25,7 +25,7 @@ export default function Products() {
               Our Products
             </h1>
             <p className="text-base md:text-lg text-white/90 max-w-2xl mx-auto">
-              Explore our comprehensive range of premium electrical products
+              Explore our comprehensive range of industrial electrical goods including control panel accessories, flexible wires, cables, industrial switchgear, and more
             </p>
           </div>
         </div>

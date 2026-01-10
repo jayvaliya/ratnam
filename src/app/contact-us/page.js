@@ -11,7 +11,7 @@ export default function ContactUs() {
               Contact Us
             </h1>
             <p className="text-base md:text-lg text-white/90 max-w-2xl mx-auto">
-              Get in touch with us for all your electrical product needs
+              Get in touch with us for all your industrial electrical product needs
             </p>
           </div>
         </div>

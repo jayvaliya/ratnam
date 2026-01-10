@@ -13,7 +13,7 @@ export default function Footer() {
               <img src="/images/logos/logo.png" alt="Ratnam Enterprise" className="h-12 brightness-0 invert" />
             </Link>
             <p className="text-sm mb-4">
-              RATNAM ENTERPRISE is a trusted seller and stockist of premium electrical products, successfully serving customers throughout India.
+              Based in Pune, RATNAM ENTERPRISE specializes in supplying high-quality industrial electrical goods, including control panel accessories, flexible wires, cables, industrial switchgear, and more.
             </p>
           </div>
 

@@ -18,7 +18,7 @@ export default function Welcome() {
               Welcome to Ratnam Enterprise
             </h3>
             <p className="text-sm md:text-base lg:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed px-2">
-              TRUSTED SELLER & STOCKIST OF PREMIUM ELECTRICAL BRANDS including Lauritz Knudsen (L&T Switchgears), Polycab, and other quality electrical products in India.
+              TRUSTED INDUSTRIAL ELECTRICAL GOODS SUPPLIERS IN PUNE - Specializing in control panel accessories, flexible wires, cables, industrial switchgear, and premium electrical brands including Lauritz Knudsen (L&T Switchgears) and Polycab.
             </p>
           </div>
 

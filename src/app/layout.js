@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Ratnam Enterprise - Trusted Seller & Stockist",
-  description: "Trusted Seller & Stockist of premium electrical products including Lauritz Knudsen (L&T Switchgears), Polycab, and other quality brands in India.",
+  title: "Ratnam Enterprise - Trusted Industrial Electrical Goods Suppliers in Pune",
+  description: "Based in Pune, we specialize in supplying high-quality industrial electrical goods, including control panel accessories, flexible wires, cables, industrial switchgear, and more.",
 };
 
 export default function RootLayout({ children }) {

@@ -11,7 +11,7 @@ export default function AboutUs() {
               About Us
             </h1>
             <p className="text-base md:text-lg text-white/90 max-w-2xl mx-auto">
-              Your trusted partner in premium electrical products and solutions
+              Trusted Industrial Electrical Goods Suppliers in Pune
             </p>
           </div>
         </div>
@@ -27,14 +27,14 @@ export default function AboutUs() {
 
             <div className="prose prose-lg max-w-none">
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                Ratnam Enterprise is a trusted name in the electrical industry, with our products 
-                successfully reaching customers throughout India.
+                Based in Pune, Ratnam Enterprise is a trusted name in the industrial electrical industry, 
+                successfully serving customers throughout India with high-quality electrical goods.
               </p>
               
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                We are a trusted seller and stockist of premium electrical products including Lauritz Knudsen (L&T Switchgears), 
-                Polycab, and other quality brands in India. Our commitment to quality products, competitive pricing, 
-                and customer satisfaction drives everything we do.
+                We specialize in supplying industrial electrical goods, including control panel accessories, flexible wires, 
+                cables, industrial switchgear, and more. As trusted suppliers of premium brands like Lauritz Knudsen (L&T Switchgears) 
+                and Polycab, our commitment to quality products, competitive pricing, and customer satisfaction drives everything we do.
               </p>
             </div>
           </div>
