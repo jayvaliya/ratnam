@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://ratnam.org.in
+
+# Sitemaps
+Sitemap: https://ratnam.org.in/sitemap.xml

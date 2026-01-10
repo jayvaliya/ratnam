@@ -7,6 +7,9 @@ import BrandLogo from '@/components/products/BrandLogo';
 import HighlightedBrands from '@/components/products/HighlightedBrands';
 import { BadgeCheck, Frown } from 'lucide-react';
 
+// Note: Client components can't export metadata directly
+// For SEO, we'll use proper semantic HTML and structured data
+
 export default function Products() {
   const [selectedCategory, setSelectedCategory] = useState('all');
 
@@ -25,7 +28,7 @@ export default function Products() {
               Our Products
             </h1>
             <p className="text-base md:text-lg text-white/90 max-w-2xl mx-auto">
-              Explore our comprehensive range of industrial electrical goods including control panel accessories, flexible wires, cables, industrial switchgear, and more
+              Comprehensive range of industrial electrical products - MCCB, ACB, RCCB, VFD drives, Polycab cables, control panel accessories, terminal blocks, busbar systems, and automation products. Trusted supplier of L&T, Schneider, Siemens in Pune
             </p>
           </div>
         </div>

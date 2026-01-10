@@ -3,7 +3,7 @@ export const productsData = [
         id: 1,
         category: "Switchgear & Protection",
         slug: "switchgear-protection",
-        description: "Complete range of switchgear and protection devices for industrial and commercial applications.",
+        description: "Complete range of industrial switchgear and protection devices including MCCB, RCCB, ACB, MCB, contactors, and VFD drives. Trusted supplier of L&T, Schneider, and Siemens products for commercial and industrial applications.",
         companies: [
             {
                 name: "Schneider",
@@ -22,20 +22,20 @@ export const productsData = [
             {
                 name: "MCB",
                 image: "https://4.imimg.com/data4/JG/SB/MY-4291486/electrical-switch-gear-250x250.jpg",
-                alt: "Miniature Circuit Breaker MCB",
-                description: "Miniature Circuit Breaker"
+                alt: "MCB Miniature Circuit Breaker - L&T Schneider Siemens Dealer Pune",
+                description: "Miniature Circuit Breaker (MCB) for electrical panel protection"
             },
             {
                 name: "MCCB",
                 image: "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Fbe4059b493444a0a994dd3093d0bc23e?format=webp",
-                alt: "Molded Case Circuit Breaker MCCB",
-                description: "Molded Case Circuit Breaker"
+                alt: "MCCB Molded Case Circuit Breaker - L&T Schneider Supplier Pune",
+                description: "Molded Case Circuit Breaker (MCCB) - trusted supplier of L&T Schneider products"
             },
             {
                 name: "RCCB",
                 image: "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F6195f6c693c842939695e35230697038",
-                alt: "Residual Current Circuit Breaker RCCB",
-                description: "Residual Current Circuit Breaker"
+                alt: "RCCB Residual Current Circuit Breaker - Earth Leakage Protection Supplier",
+                description: "Residual Current Circuit Breaker (RCCB) for earth leakage protection"
             },
             {
                 name: "RCBO",
@@ -46,8 +46,8 @@ export const productsData = [
             {
                 name: "ACB",
                 image: "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F9dd95fcab0a94673808544f999207727?format=webp",
-                alt: "Air Circuit Breaker ACB",
-                description: "Air Circuit Breaker"
+                alt: "ACB Air Circuit Breaker - L&T Schneider ACB Stockist Pune",
+                description: "Air Circuit Breaker (ACB) - high capacity protection for industrial applications"
             },
             {
                 name: "Contactors",
@@ -70,14 +70,14 @@ export const productsData = [
             {
                 name: "VFD - Altivar",
                 image: "https://assets.new.siemens.com/siemens/assets/api/uuid:09788909-ae88-4a57-92a5-a4f97805c1e5/width:1920/quality:high/Climatix-Variable-Frequency-Drives.png",
-                alt: "Variable Frequency Drive Altivar VFD",
-                description: "Variable Frequency Drive"
+                alt: "VFD Variable Frequency Drive Altivar - AC Drive Supplier Pune",
+                description: "Variable Frequency Drive (VFD) for motor speed control and energy efficiency"
             },
             {
                 name: "Distribution Boards",
                 image: "https://download.schneider-electric.com/files?p_Doc_Ref=A9HFPI14_Door-Open_Image&p_File_Type=rendition_369_jpg&default_image=DefaultProductImage.png",
-                alt: "Power Distribution Boards",
-                description: "Power Distribution Boards"
+                alt: "Distribution Board Supplier - Electrical Panel DB Box Pune",
+                description: "Distribution Boards (DB) for safe power distribution in industrial and commercial installations"
             },
             {
                 name: "Changeover Switch (Manual/Auto)",
@@ -97,7 +97,7 @@ export const productsData = [
         id: 2,
         category: "Wires & Cables",
         slug: "wires-cables",
-        description: "Premium quality wires and cables for all electrical installations.",
+        description: "Premium quality electrical wires and cables for all installations. Trusted supplier of Polycab, KEI, RR Kabel in Pune offering LT HT cables, flexible wires, armoured cables, control cables, and house wiring solutions.",
         companies: [
             {
                 name: "POLYCAB",
@@ -120,38 +120,38 @@ export const productsData = [
             {
                 name: "Single Core Wire",
                 image: "https://content.jdmagicbox.com/pune/b9/020pxx20.xx20.140610121259.b6b9/catalogue/finolex-industries-limited-chinchwad-east-pune-oc4b3-250.jpg",
-                alt: "Single Core Electrical Wire",
-                description: "Single Core Electrical Wire"
+                alt: "Single Core Electrical Wire - Polycab Finolex Dealer Pune",
+                description: "Single Core PVC Insulated Wire for panel wiring and electrical installations"
             },
             {
                 name: "Multicore Cable",
                 image: "https://5.imimg.com/data5/SELLER/Default/2025/5/508515937/CQ/UW/KS/192042816/mm-3-core-cable-price-per-meter-polycab.jpg",
-                alt: "Multi Core Electrical Cable",
-                description: "Multi Core Electrical Cable"
+                alt: "Multicore Flexible Cable - Polycab Multi Core Wire Supplier",
+                description: "Multi Core Flexible Cable for control panel and industrial wiring applications"
             },
             {
                 name: "Bride Cable",
                 image: "https://5.imimg.com/data5/ME/IO/YE/SELLER-1814441/polycab-braided-flexible-cable.jpg",
-                alt: "Bride Cable",
-                description: "Bride Cable"
+                alt: "Braided Flexible Cable - Industrial Bride Cable Dealer Pune",
+                description: "Braided Flexible Cable (Bride Cable) for industrial and control applications"
             },
             {
                 name: "Aluminium Armoured Cable",
                 image: "https://tiimg.tistatic.com/fp/1/005/284/copper-ht-xlpe-cables-746.jpg",
-                alt: "Aluminium Armoured Power Cable",
-                description: "Aluminium Armoured Power Cable"
+                alt: "Aluminium Armoured Cable - LT HT Power Cable Supplier Pune",
+                description: "Aluminium Armoured Power Cable for underground and industrial power distribution"
             },
             {
                 name: "Copper Armoured Cable",
                 image: "https://5.imimg.com/data5/SELLER/Default/2021/5/TG/KW/XQ/43090661/polycab-armoured-cable-500x500-500x500.jpg",
-                alt: "Copper Armoured Power Cable",
-                description: "Copper Armoured Power Cable"
+                alt: "Copper Armoured Cable - Polycab LT HT Cable Stockist Pune",
+                description: "Copper Armoured Power Cable - trusted Polycab supplier for LT HT applications"
             },
             {
                 name: "House Wires",
                 image: "https://5.imimg.com/data5/ANDROID/Default/2025/6/516495667/NB/EQ/SM/78546241/product-jpeg.jpg",
-                alt: "Residential House Wiring Cable",
-                description: "Residential House Wiring"
+                alt: "House Wiring Cable - Polycab Havells Residential Wire Dealer",
+                description: "Residential House Wiring Cable - FR LSH wires for safe home installations"
             }
         ]
     },
@@ -159,7 +159,7 @@ export const productsData = [
         id: 3,
         category: "Connectors",
         slug: "connectors",
-        description: "High-quality terminal blocks and connector accessories for secure electrical connections.",
+        description: "High-quality terminal blocks, connectors, and DIN rail accessories for secure electrical connections. Trusted supplier of Connectwell and Eimex products offering screw and screwless terminal blocks, SMPS, interface modules.",
         companies: [
             {
                 name: "CONNECTWELL",
@@ -213,7 +213,7 @@ export const productsData = [
         id: 4,
         category: "Control and Signaling Devices",
         slug: "control-signaling-devices",
-        description: "Comprehensive range of control and signaling devices for industrial automation.",
+        description: "Comprehensive range of control and signaling devices including push buttons, selector switches, proximity sensors, limit switches, tower lights, and industrial plugs for automation and control applications.",
         companies: [
             {
                 name: "TEKNIC",
@@ -291,7 +291,7 @@ export const productsData = [
         id: 5,
         category: "Control Panel Accessories and Other Products",
         slug: "control-panel-accessories",
-        description: "Complete range of control panel accessories and electrical tools.",
+        description: "Complete range of control panel accessories including cable glands, lugs, ferrules, DIN rails, cable ducts, panel cooling fans, relays, terminals, and electrical tools. One-stop shop for all panel wiring materials.",
         companies: [
             {
                 name: "SELEC",

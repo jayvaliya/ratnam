@@ -10,10 +10,10 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <Link href="/" className="inline-block mb-4">
-              <img src="/images/logos/logo.png" alt="Ratnam Enterprise" className="h-12 brightness-0 invert" />
+              <img src="/images/logos/logo.png" alt="Ratnam Enterprise - Industrial Electrical Supplier Pune" className="h-12 brightness-0 invert" />
             </Link>
             <p className="text-sm mb-4">
-              Based in Pune, RATNAM ENTERPRISE specializes in supplying high-quality industrial electrical goods, including control panel accessories, flexible wires, cables, industrial switchgear, and more.
+              Leading <strong>industrial electrical supplier in Pune</strong>, Maharashtra. Trusted supplier of <strong>L&T Switchgear, Polycab cables, Schneider, and Siemens</strong> products. Supplying MCCB, ACB, RCCB, VFD drives, control panel accessories, LT HT cables, terminal blocks, and automation products to industries across India. Your trusted B2B wholesale electrical distributor.
             </p>
           </div>
 

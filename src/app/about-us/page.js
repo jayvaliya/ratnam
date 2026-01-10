@@ -1,5 +1,26 @@
 import { Award, Users, Heart } from 'lucide-react';
 
+export const metadata = {
+  title: "About Us - Leading Industrial Electrical Supplier in Pune | Ratnam Enterprise",
+  description: "Ratnam Enterprise is a trusted industrial electrical equipment supplier based in Pune, Maharashtra. Reliable supplier of L&T Switchgear & Polycab products offering quality electrical goods, competitive pricing, and professional service across India.",
+  keywords: [
+    "industrial electrical supplier Pune",
+    "L&T switchgear supplier",
+    "Polycab supplier Pune",
+    "electrical goods distributor Pune",
+    "industrial electrical companies Pune",
+    "B2B electrical supplier Maharashtra"
+  ],
+  openGraph: {
+    title: "About Ratnam Enterprise - Industrial Electrical Supplier Pune",
+    description: "Leading supplier of industrial electrical goods in Pune. Trusted supplier of L&T & Polycab products serving customers across India with quality products and professional service.",
+    url: "https://ratnam.org.in/about-us",
+  },
+  alternates: {
+    canonical: "https://ratnam.org.in/about-us",
+  },
+};
+
 export default function AboutUs() {
   return (
     <div className="min-h-screen bg-white">
@@ -27,14 +48,15 @@ export default function AboutUs() {
 
             <div className="prose prose-lg max-w-none">
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                Based in Pune, Ratnam Enterprise is a trusted name in the industrial electrical industry, 
-                successfully serving customers throughout India with high-quality electrical goods.
+                Based in Pune, Ratnam Enterprise is a trusted <strong>industrial electrical supplier</strong> and <strong>dealer</strong>, 
+                successfully serving customers throughout India with high-quality electrical products including switchgear, cables, and control panel accessories.
               </p>
               
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                We specialize in supplying industrial electrical goods, including control panel accessories, flexible wires, 
-                cables, industrial switchgear, and more. As trusted suppliers of premium brands like Lauritz Knudsen (L&T Switchgears) 
-                and Polycab, our commitment to quality products, competitive pricing, and customer satisfaction drives everything we do.
+                We specialize in supplying <strong>industrial electrical goods</strong> including <strong>MCCB, ACB, RCCB</strong>, control panel accessories, 
+                flexible wires, <strong>LT HT cables</strong>, VFD drives, terminal blocks, busbar systems, and automation products. As trusted dealers and stockists 
+                of premium brands like <strong>Lauritz Knudsen (L&T Switchgears)</strong>, <strong>Polycab</strong>, <strong>Schneider Electric</strong>, and 
+                <strong>Siemens</strong>, our commitment to quality products, competitive pricing, and customer satisfaction drives everything we do.
               </p>
             </div>
           </div>
@@ -87,9 +109,10 @@ export default function AboutUs() {
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8">Established Market Presence</h2>
             <p className="text-lg text-gray-600 mb-8">
-              As a reliable seller and stockist, we have built a strong market presence 
-              across India. We maintain extensive stock of quality electrical products to serve customers in various industries including telecom, 
-              construction, energy, oil & gas, mining, agriculture, and more.
+              As a reliable <strong>wholesale electrical distributor</strong> and <strong>B2B electrical goods supplier</strong>, 
+              we have built a strong market presence across Pune, Maharashtra, and India. We maintain extensive stock of quality 
+              electrical products including <strong>switchgear, cables, control panel accessories, VFD drives, and automation products</strong> 
+              to serve customers in various industries including telecom, construction, energy, oil & gas, mining, agriculture, and manufacturing.
             </p>
             
             <div className="bg-primary/10 rounded-lg p-8 border border-primary">

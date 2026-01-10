@@ -1,5 +1,26 @@
 import { MapPin, Mail, Phone } from 'lucide-react';
 
+export const metadata = {
+  title: "Contact Us - Industrial Electrical Supplier in Pune | Get Quote | Ratnam Enterprise",
+  description: "Contact Ratnam Enterprise for industrial electrical products in Pune. Shop located at Telco Road, Bhosari MIDC. Call +91 9429094277 or email sales@ratnam.org.in for quotes on MCCB, cables, control panel accessories & more.",
+  keywords: [
+    "industrial electrical shop near me",
+    "electrical panel material shop Pune",
+    "switchgear dealer Bhosari",
+    "industrial electrical supplier contact",
+    "electrical goods shop Pune MIDC",
+    "wholesale electrical distributor Pune"
+  ],
+  openGraph: {
+    title: "Contact Ratnam Enterprise - Industrial Electrical Supplier Pune",
+    description: "Get in touch for industrial electrical products. Located at Telco Road, Bhosari MIDC, Pune. Contact: +91 9429094277 | Email: sales@ratnam.org.in",
+    url: "https://ratnam.org.in/contact-us",
+  },
+  alternates: {
+    canonical: "https://ratnam.org.in/contact-us",
+  },
+};
+
 export default function ContactUs() {
   return (
     <div className="min-h-screen bg-white">
