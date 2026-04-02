@@ -31,8 +31,8 @@ export default function Industries() {
     },
     {
       id: 6,
-      name: 'Hotels',
-      image: 'https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg'
+      name: 'Green Energy Industry',
+      image: 'https://www.treehugger.com/thmb/UECh99bo5Bh2xFVcvIJmH6jTCnY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/3-53bb8a02d2c744999ab6aa55d38c0063.jpg'
     }
   ];
 

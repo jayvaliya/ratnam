@@ -164,10 +164,6 @@ export const productsData = [
             {
                 name: "CONNECTWELL",
                 logo: "https://5.imimg.com/data5/SELLER/Default/2022/3/MA/LW/IE/4201148/datalogic-s50-pr-5-c01-pp-sensor-1000x1000.png"
-            },
-            {
-                name: "EIMEX",
-                logo: "https://www.liblogo.com/img-logo/max/el5440ube0-elmex-logo-updated-elmex-crm-mod-app-download-for-pc-android-2022.png"
             }
         ],
         products: [
@@ -217,23 +213,11 @@ export const productsData = [
         companies: [
             {
                 name: "TEKNIC",
-                logo: "https://media.licdn.com/dms/image/v2/C560BAQElSuTcfMEKxA/company-logo_200_200/company-logo_200_200/0/1633688559143?e=1768435200&v=beta&t=vB3dwcib7lZzcy9LLtAWXQ5AWkBkplrq9guYJdPMoU8"
-            },
-            {
-                name: "Siemens",
-                logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Siemens_AG_logo.svg/1200px-Siemens_AG_logo.svg.png"
+                logo: "https://media.licdn.com/dms/image/v2/C560BAQElSuTcfMEKxA/company-logo_200_200/company-logo_200_200/0/1633688559143?e=2147483647&v=beta&t=IU-NcnWR9ZBc5UKNkgiN1SDPy3-_P0g0dNZHUIS2xyE"
             },
             {
                 name: "Schneider",
                 logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Schneider_Electric_2007.svg/330px-Schneider_Electric_2007.svg.png?20150906005100"
-            },
-            {
-                name: "Kosmos",
-                logo: "https://kosmosindia.net/wp-content/uploads/2023/02/logo-1.png"
-            },
-            {
-                name: "Sibass",
-                logo: "https://img500.exportersindia.com/product_images/bc-500/2023/11/5573388/sibass-dealer-supplier-1646889460-6234909.jpg"
             }
         ],
         products: [
@@ -292,96 +276,7 @@ export const productsData = [
         category: "Control Panel Accessories and Other Products",
         slug: "control-panel-accessories",
         description: "Complete range of control panel accessories including cable glands, lugs, ferrules, DIN rails, cable ducts, panel cooling fans, relays, terminals, and electrical tools. One-stop shop for all panel wiring materials.",
-        companies: [
-            {
-                name: "SELEC",
-                logo: "https://whatthelogo.com/storage/logos/selec-controls-168825.webp"
-            },
-            {
-                name: "SALZER",
-                logo: "https://whatthelogo.com/storage/logos/salzer-electric-176881.webp"
-            },
-            {
-                name: "TRINITY TOUCH",
-                logo: "https://media.licdn.com/dms/image/v2/D560BAQF6m3TQ9Se5VQ/company-logo_200_200/company-logo_200_200/0/1735729525788/trinity_touch_logo?e=1768435200&v=beta&t=FX0b0b7zY7HfzZW1jJZWuF_M8y99RNdphO3Nesk7EpM"
-            },
-            {
-                name: "MULTISPAN",
-                logo: "https://media.licdn.com/dms/image/v2/C560BAQHa0_wgR8H5jw/company-logo_200_200/company-logo_200_200/0/1630643828376/multispancontrolinstruments_logo?e=1768435200&v=beta&t=B2fXIZw8fBP9jFtretFy89I7MIcrL3Ou97yEVYWOM8E"
-            },
-            {
-                name: "DOWELL'S",
-                logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3EJDFSGEoJZzTXHXoRJJG_w720auZGwCimA&s"
-            },
-            {
-                name: "HEX",
-                logo: "https://media.licdn.com/dms/image/v2/C4E0BAQG_JkUtIK577g/company-logo_200_200/company-logo_200_200/0/1631347021430?e=1768435200&v=beta&t=-RRE5SQgoSufd9VDTr99mE_k7C5n2z9GjfyCuSkDG3U"
-            },
-            {
-                name: "BCH",
-                logo: "https://media.licdn.com/dms/image/v2/C510BAQEW7jZjKY2Htw/company-logo_200_200/company-logo_200_200/0/1630626875690/bch_electric_ltd_faridabad_logo?e=1768435200&v=beta&t=kxmrQgfTZjyyIqBIQl0Ff09_wmG_QtM2WViwdYHWgDk"
-            },
-            {
-                name: "GIC",
-                logo: "https://media.licdn.com/dms/image/v2/D4D0BAQH99tDSiadAuQ/company-logo_200_200/company-logo_200_200/0/1688461888801/general_industrial_controls_private_limited_logo?e=1768435200&v=beta&t=YFkriGJUDAPY6lvAHeoWb3y6wy1XUofwEcs3QibzRHw"
-            },
-            {
-                name: "OMRON",
-                logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_DNWRkrC9xzijuOecv5NiN8iSJeM1HCvoDA&s"
-            },
-            {
-                name: "PIA",
-                logo: "https://img500.exportersindia.com/product_images/bc-500/2023/11/5573388/pla-relay-dealer-supplier-1646657610-6233746.jpg"
-            },
-            {
-                name: "ELETTRO",
-                logo: "https://img.thecompanycheck.com/companylogo/K.N.ELETTROINDUSTRIES_499426.webp"
-            },
-            {
-                name: "REXNORD",
-                logo: "https://www.rexnordindia.com/Image/Rexnord.png"
-            },
-            {
-                name: "SIBASS",
-                logo: "https://img500.exportersindia.com/product_images/bc-500/2023/11/5573388/sibass-dealer-supplier-1646889460-6234909.jpg"
-            },
-            {
-                name: "JIGO",
-                logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjJCRs6IQ-x4MdOpI4_U1Ifd1lxW8W-KNGiQ&s"
-            },
-            {
-                name: "KOSMOS",
-                logo: "https://kosmosindia.net/wp-content/uploads/2023/02/logo-1.png"
-            },
-            {
-                name: "JAINSON",
-                logo: "https://lh6.googleusercontent.com/proxy/M2Pj0voYx9-qpxgjoVNk6vh-r98XK1Q97yr9Q1tVBmNt37J8-F6tEpWbGb9OdAyzZHRCEhV5FvFIDDYxeyDicQUdVsFTa1I9F492gjM3Dw"
-            },
-            {
-                name: "FLUKE",
-                logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCf_c8HEFXHIGewx96as2exQ40l3_UojlLyw&s"
-            },
-            {
-                name: "MECO",
-                logo: "https://static.wixstatic.com/media/c76346_c1d73d22d16c4f0d989355971cd7dfec~mv2.png/v1/fill/w_364,h_205,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Kusam%20Electrical%20Instruments%20LLP.png"
-            },
-            {
-                name: "TAPARIA",
-                logo: "https://media.licdn.com/dms/image/v2/C4D0BAQHUwC99-RiCdA/company-logo_200_200/company-logo_200_200/0/1631346331149?e=1768435200&v=beta&t=UcZjvZCDsM4Hwa_OzWGyzvhMn0hHjqBKNI0f5TtCqiU"
-            },
-            {
-                name: "ALMONARD",
-                logo: "https://m.media-amazon.com/images/S/aplus-media/sc/d33c1368-39e2-471a-978f-33183204eaf6.__CR0,0,970,300_PT0_SX970_V1___.png"
-            },
-            {
-                name: "PHILIPS",
-                logo: "https://media.licdn.com/dms/image/v2/D4E0BAQFpB8fd3m9G0w/company-logo_200_200/company-logo_200_200/0/1737552865359/philips_logo?e=1768435200&v=beta&t=3uCNwWtEsI4G2bDDzanKYGSJvjjipr0AyUY__0SEpfM"
-            },
-            {
-                name: "Crompton",
-                logo: "https://media.licdn.com/dms/image/v2/C4E0BAQF_LqY9NiH0zw/company-logo_200_200/company-logo_200_200/0/1631302810364?e=1768435200&v=beta&t=eR68NBbP-Iv1FOpdERtpg37ve2qPHNYJq45XL_UQ59E"
-            }
-        ],
+        companies: [],
         products: [
             {
                 name: "Ring type Lugs",
@@ -502,6 +397,42 @@ export const productsData = [
                 image: "https://connectorsupplier.com/wp-content/uploads/COAX-Tool-arrangement-lead-768x472.png",
                 alt: "Hand Crimping Tools",
                 description: "Hand Crimping Tools"
+            },
+            {
+                name: "Crane Remote",
+                image: "https://acculift.com/wp-content/uploads/2016/09/Pendants-1-1.png",
+                alt: "Crane Remote Control",
+                description: "Industrial Crane Remote Control System"
+            },
+            {
+                name: "SMPS",
+                image: "https://ebhoot.in/shop-2/power-supply/smps/12v-10a-smps-120w-dc-metal-power-supply-good-quality/?srsltid=AfmBOop4MnepgqteYMQABBkFEmeLbDm2zuxj3sa7PnT5cpSwwz_Efu4j",
+                alt: "SMPS Power Supply",
+                description: "12V 10A SMPS 120W DC Metal Power Supply"
+            },
+            {
+                name: "Busbar Sleeve",
+                image: "https://www.tradeindia.com/delhi/busbar-sleeve-city-228067.html",
+                alt: "Busbar Sleeve",
+                description: "Busbar Sleeve for electrical insulation"
+            },
+            {
+                name: "Air Vent",
+                image: "https://www.elettro.in/uploads/product/15042022141254ETAV-03.jpg",
+                alt: "Panel Air Vent",
+                description: "Control Panel Air Vent"
+            },
+            {
+                name: "Industrial Fan",
+                image: "https://5.imimg.com/data5/ZO/XG/ON/SELLER-31705053/almonard-industrial-fan-500x500.jpg",
+                alt: "Industrial Fan",
+                description: "Almonard Industrial Fan"
+            },
+            {
+                name: "LED Industrial Lights",
+                image: "https://www.ledlightingsupply.com/led-sports-lighting/led-field-lighting",
+                alt: "LED Industrial Lights",
+                description: "LED Industrial Lighting Solutions"
             }
         ]
     }
@@ -512,44 +443,44 @@ export const productsData = [
 export const highlightedCompanies = [
     {
         id: 1,
-        name: "POLYCAB",
-        logo: "https://realswitchgears.com/assets/images/our_clients/polycab.svg",
-        category: "Wires & Cables"
-    },
-    {
-        id: 2,
-        name: "SCHNEIDER",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Schneider_Electric_2007.svg/2560px-Schneider_Electric_2007.svg.png",
-        category: "Switchgear & Automation"
-    },
-    {
-        id: 3,
-        name: "SIEMENS",
-        logo: "https://www.logo.wine/a/logo/Siemens/Siemens-Logo.wine.svg",
-        category: "Switchgear & Automation"
-    },
-    {
-        id: 4,
         name: "LAURITZ KNUDSEN",
         logo: "https://5.imimg.com/data5/SELLER/Default/2025/5/508283235/VO/OY/XJ/99665887/lk-logo-1000x1000.png",
         category: "Switchgear Solutions"
     },
     {
-        id: 5,
+        id: 2,
         name: "CONNECTWELL",
         logo: "https://5.imimg.com/data5/SELLER/Default/2022/3/MA/LW/IE/4201148/datalogic-s50-pr-5-c01-pp-sensor-1000x1000.png",
         category: "Terminal Blocks"
     },
     {
-        id: 6,
+        id: 3,
         name: "TEKNIC",
-        logo: "https://media.licdn.com/dms/image/v2/C560BAQElSuTcfMEKxA/company-logo_200_200/company-logo_200_200/0/1633688559143?e=1768435200&v=beta&t=vB3dwcib7lZzcy9LLtAWXQ5AWkBkplrq9guYJdPMoU8",
+        logo: "https://media.licdn.com/dms/image/v2/C560BAQElSuTcfMEKxA/company-logo_200_200/company-logo_200_200/0/1633688559143?e=2147483647&v=beta&t=IU-NcnWR9ZBc5UKNkgiN1SDPy3-_P0g0dNZHUIS2xyE",
         category: "Control & Signaling"
+    },
+    {
+        id: 4,
+        name: "SCHNEIDER",
+        logo: "https://iconape.com/wp-content/png_logo_vector/schneider-electric-logo.png",
+        category: "Switchgear & Automation"
+    },
+    {
+        id: 5,
+        name: "POLYCAB",
+        logo: "https://companieslogo.com/img/orig/POLYCAB.NS_BIG-75d2f870.png?t=1729362040",
+        category: "Wires & Cables"
+    },
+    {
+        id: 6,
+        name: "SIEMENS",
+        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Siemens_AG_logo.svg/1200px-Siemens_AG_logo.svg.png",
+        category: "Switchgear & Automation"
     },
     {
         id: 7,
         name: "Crompton",
-        logo: "https://media.licdn.com/dms/image/v2/C4E0BAQF_LqY9NiH0zw/company-logo_200_200/company-logo_200_200/0/1631302810364?e=1768435200&v=beta&t=eR68NBbP-Iv1FOpdERtpg37ve2qPHNYJq45XL_UQ59E",
+        logo: "https://iconape.com/wp-content/files/mm/382407/svg/382407.svg",
         category: "Electrical Products"
     }
 ];
