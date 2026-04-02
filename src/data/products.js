@@ -90,64 +90,6 @@ export const productsData = [
         ]
     },
     {
-        id: 2,
-        category: "Wires & Cables",
-        slug: "wires-cables",
-        description: "Premium quality electrical wires and cables for all installations. Trusted supplier of KEI, RR Kabel in Pune offering LT HT cables, flexible wires, armoured cables, control cables, and house wiring solutions.",
-        companies: [
-            {
-                name: "KEI",
-                logo: "https://companieslogo.com/img/orig/KEI.NS-b74ea847.png?t=1723784396"
-            },
-            {
-                name: "RR",
-                logo: "https://indcdn.indmoney.com/cdn-cgi/image/quality=90,format=auto,metadata=copyright,width=500/https://indcdn.indmoney.com/public/images/INDS27182.png"
-            },
-            {
-                name: "FINOLEX",
-                logo: "https://companieslogo.com/img/orig/FINCABLES.NS_BIG-1039180c.png?t=1720244491"
-            }
-        ],
-        products: [
-            {
-                name: "Single Core Wire",
-                image: "https://content.jdmagicbox.com/pune/b9/020pxx20.xx20.140610121259.b6b9/catalogue/finolex-industries-limited-chinchwad-east-pune-oc4b3-250.jpg",
-                alt: "Single Core Electrical Wire - Finolex Dealer Pune",
-                description: "Single Core PVC Insulated Wire for panel wiring and electrical installations"
-            },
-            {
-                name: "Multicore Cable",
-                image: "https://5.imimg.com/data5/SELLER/Default/2025/5/508515937/CQ/UW/KS/192042816/mm-3-core-cable-price-per-meter-polycab.jpg",
-                alt: "Multicore Flexible Cable - Multi Core Wire Supplier",
-                description: "Multi Core Flexible Cable for control panel and industrial wiring applications"
-            },
-            {
-                name: "Bride Cable",
-                image: "https://5.imimg.com/data5/ME/IO/YE/SELLER-1814441/polycab-braided-flexible-cable.jpg",
-                alt: "Braided Flexible Cable - Industrial Bride Cable Dealer Pune",
-                description: "Braided Flexible Cable (Bride Cable) for industrial and control applications"
-            },
-            {
-                name: "Aluminium Armoured Cable",
-                image: "https://tiimg.tistatic.com/fp/1/005/284/copper-ht-xlpe-cables-746.jpg",
-                alt: "Aluminium Armoured Cable - LT HT Power Cable Supplier Pune",
-                description: "Aluminium Armoured Power Cable for underground and industrial power distribution"
-            },
-            {
-                name: "Copper Armoured Cable",
-                image: "https://5.imimg.com/data5/SELLER/Default/2021/5/TG/KW/XQ/43090661/polycab-armoured-cable-500x500-500x500.jpg",
-                alt: "Copper Armoured Cable - LT HT Cable Stockist Pune",
-                description: "Copper Armoured Power Cable - trusted supplier for LT HT applications"
-            },
-            {
-                name: "House Wires",
-                image: "https://5.imimg.com/data5/ANDROID/Default/2025/6/516495667/NB/EQ/SM/78546241/product-jpeg.jpg",
-                alt: "House Wiring Cable - Havells Residential Wire Dealer",
-                description: "Residential House Wiring Cable - FR LSH wires for safe home installations"
-            }
-        ]
-    },
-    {
         id: 3,
         category: "Connectors",
         slug: "connectors",
@@ -421,6 +363,42 @@ export const productsData = [
                 image: "https://www.ledlightingsupply.com/led-sports-lighting/led-field-lighting",
                 alt: "LED Industrial Lights",
                 description: "LED Industrial Lighting Solutions"
+            },
+            {
+                name: "Single Core Wire",
+                image: "https://content.jdmagicbox.com/pune/b9/020pxx20.xx20.140610121259.b6b9/catalogue/finolex-industries-limited-chinchwad-east-pune-oc4b3-250.jpg",
+                alt: "Single Core Electrical Wire - Finolex Dealer Pune",
+                description: "Single Core PVC Insulated Wire for panel wiring and electrical installations"
+            },
+            {
+                name: "Multicore Cable",
+                image: "https://5.imimg.com/data5/SELLER/Default/2025/5/508515937/CQ/UW/KS/192042816/mm-3-core-cable-price-per-meter-polycab.jpg",
+                alt: "Multicore Flexible Cable - Multi Core Wire Supplier",
+                description: "Multi Core Flexible Cable for control panel and industrial wiring applications"
+            },
+            {
+                name: "Bride Cable",
+                image: "https://5.imimg.com/data5/ME/IO/YE/SELLER-1814441/polycab-braided-flexible-cable.jpg",
+                alt: "Braided Flexible Cable - Industrial Bride Cable Dealer Pune",
+                description: "Braided Flexible Cable (Bride Cable) for industrial and control applications"
+            },
+            {
+                name: "Aluminium Armoured Cable",
+                image: "https://tiimg.tistatic.com/fp/1/005/284/copper-ht-xlpe-cables-746.jpg",
+                alt: "Aluminium Armoured Cable - LT HT Power Cable Supplier Pune",
+                description: "Aluminium Armoured Power Cable for underground and industrial power distribution"
+            },
+            {
+                name: "Copper Armoured Cable",
+                image: "https://5.imimg.com/data5/SELLER/Default/2021/5/TG/KW/XQ/43090661/polycab-armoured-cable-500x500-500x500.jpg",
+                alt: "Copper Armoured Cable - LT HT Cable Stockist Pune",
+                description: "Copper Armoured Power Cable - trusted supplier for LT HT applications"
+            },
+            {
+                name: "House Wires",
+                image: "https://5.imimg.com/data5/ANDROID/Default/2025/6/516495667/NB/EQ/SM/78546241/product-jpeg.jpg",
+                alt: "House Wiring Cable - Havells Residential Wire Dealer",
+                description: "Residential House Wiring Cable - FR LSH wires for safe home installations"
             }
         ]
     }
