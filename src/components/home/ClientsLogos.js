@@ -37,10 +37,10 @@ export default function ClientsLogos() {
           </div>
         </div>
 
-        {/* Second Row - scrolling left with 50% offset */}
+        {/* Second Row - scrolling right (opposite direction) */}
         <div className="relative overflow-hidden">
-          <div className="flex animate-scroll-left-delayed">
-            {[...clientBrands, ...clientBrands].reverse().map((brand, index) => (
+          <div className="flex animate-scroll-right">
+            {[...clientBrands, ...clientBrands].map((brand, index) => (
               <div 
                 key={`row2-${index}`}
                 className="flex-shrink-0 w-48 sm:w-56 md:w-64 mx-2 md:mx-3"
@@ -73,8 +73,17 @@ export default function ClientsLogos() {
           }
         }
 
+        @keyframes scroll-right {
+          from {
+            transform: translateX(-50%);
+          }
+          to {
+            transform: translateX(0);
+          }
+        }
+
         .animate-scroll-left,
-        .animate-scroll-left-delayed {
+        .animate-scroll-right {
           width: max-content;
           will-change: transform;
         }
@@ -83,9 +92,8 @@ export default function ClientsLogos() {
           animation: scroll-left 50s linear infinite;
         }
 
-        .animate-scroll-left-delayed {
-          animation: scroll-left 50s linear infinite;
-          animation-delay: -15s;
+        .animate-scroll-right {
+          animation: scroll-right 50s linear infinite;
         }
 
       `}</style>
