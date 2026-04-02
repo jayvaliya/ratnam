@@ -18,7 +18,7 @@ export default function Welcome() {
               Welcome to Ratnam Enterprise
             </h3>
             <p className="text-sm md:text-base lg:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed px-2">
-              Leading <strong>industrial electrical supplier in Pune</strong> specializing in control panel accessories, switchgear, cables, and automation products. Trusted supplier of <strong>L&T Switchgear</strong>, <strong>Polycab cables</strong>, Schneider, Siemens products - serving B2B wholesale customers across Maharashtra and India with quality products, competitive pricing, and reliable service.
+              Leading <strong>industrial electrical supplier in Pune</strong> specializing in control panel accessories, switchgear, cables, and automation products. Trusted supplier of <strong>L&T Switchgear</strong> and <strong>Siemens</strong> products - serving B2B wholesale customers across Maharashtra and India with quality products, competitive pricing, and reliable service.
             </p>
           </div>
 

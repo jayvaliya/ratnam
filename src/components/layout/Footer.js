@@ -13,7 +13,7 @@ export default function Footer() {
               <img src="/images/logos/logo.png" alt="Ratnam Enterprise - Industrial Electrical Supplier Pune" className="h-12 brightness-0 invert" />
             </Link>
             <p className="text-sm mb-4">
-              Leading <strong>industrial electrical supplier in Pune</strong>, Maharashtra. Trusted supplier of <strong>L&T Switchgear, Polycab cables, Schneider, and Siemens</strong> products. Supplying MCCB, ACB, RCCB, VFD drives, control panel accessories, LT HT cables, terminal blocks, and automation products to industries across India. Your trusted B2B wholesale electrical distributor.
+              Leading <strong>industrial electrical supplier in Pune</strong>, Maharashtra. Trusted supplier of <strong>L&T Switchgear</strong> and <strong>Siemens</strong> products. Supplying MCCB, ACB, RCCB, VFD drives, control panel accessories, LT HT cables, terminal blocks, and automation products to industries across India. Your trusted B2B wholesale electrical distributor.
             </p>
           </div>
 

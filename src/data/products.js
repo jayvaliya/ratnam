@@ -3,12 +3,8 @@ export const productsData = [
         id: 1,
         category: "Switchgear & Protection",
         slug: "switchgear-protection",
-        description: "Complete range of industrial switchgear and protection devices including MCCB, RCCB, ACB, MCB, contactors, and VFD drives. Trusted supplier of L&T, Schneider, and Siemens products for commercial and industrial applications.",
+        description: "Complete range of industrial switchgear and protection devices including MCCB, RCCB, ACB, MCB, contactors, and VFD drives. Trusted supplier of L&T and Siemens products for commercial and industrial applications.",
         companies: [
-            {
-                name: "Schneider",
-                logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Schneider_Electric_2007.svg/330px-Schneider_Electric_2007.svg.png?20150906005100"
-            },
             {
                 name: "Siemens",
                 logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Siemens_AG_logo.svg/1200px-Siemens_AG_logo.svg.png"
@@ -22,14 +18,14 @@ export const productsData = [
             {
                 name: "MCB",
                 image: "https://4.imimg.com/data4/JG/SB/MY-4291486/electrical-switch-gear-250x250.jpg",
-                alt: "MCB Miniature Circuit Breaker - L&T Schneider Siemens Dealer Pune",
+                alt: "MCB Miniature Circuit Breaker - L&T Siemens Dealer Pune",
                 description: "Miniature Circuit Breaker (MCB) for electrical panel protection"
             },
             {
                 name: "MCCB",
                 image: "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Fbe4059b493444a0a994dd3093d0bc23e?format=webp",
-                alt: "MCCB Molded Case Circuit Breaker - L&T Schneider Supplier Pune",
-                description: "Molded Case Circuit Breaker (MCCB) - trusted supplier of L&T Schneider products"
+                alt: "MCCB Molded Case Circuit Breaker - L&T Supplier Pune",
+                description: "Molded Case Circuit Breaker (MCCB) - trusted supplier of L&T products"
             },
             {
                 name: "RCCB",
@@ -46,7 +42,7 @@ export const productsData = [
             {
                 name: "ACB",
                 image: "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2F9dd95fcab0a94673808544f999207727?format=webp",
-                alt: "ACB Air Circuit Breaker - L&T Schneider ACB Stockist Pune",
+                alt: "ACB Air Circuit Breaker - L&T ACB Stockist Pune",
                 description: "Air Circuit Breaker (ACB) - high capacity protection for industrial applications"
             },
             {
@@ -97,12 +93,8 @@ export const productsData = [
         id: 2,
         category: "Wires & Cables",
         slug: "wires-cables",
-        description: "Premium quality electrical wires and cables for all installations. Trusted supplier of Polycab, KEI, RR Kabel in Pune offering LT HT cables, flexible wires, armoured cables, control cables, and house wiring solutions.",
+        description: "Premium quality electrical wires and cables for all installations. Trusted supplier of KEI, RR Kabel in Pune offering LT HT cables, flexible wires, armoured cables, control cables, and house wiring solutions.",
         companies: [
-            {
-                name: "POLYCAB",
-                logo: "https://companieslogo.com/img/orig/POLYCAB.NS_BIG-75d2f870.png?t=1729362040"
-            },
             {
                 name: "KEI",
                 logo: "https://companieslogo.com/img/orig/KEI.NS-b74ea847.png?t=1723784396"
@@ -120,13 +112,13 @@ export const productsData = [
             {
                 name: "Single Core Wire",
                 image: "https://content.jdmagicbox.com/pune/b9/020pxx20.xx20.140610121259.b6b9/catalogue/finolex-industries-limited-chinchwad-east-pune-oc4b3-250.jpg",
-                alt: "Single Core Electrical Wire - Polycab Finolex Dealer Pune",
+                alt: "Single Core Electrical Wire - Finolex Dealer Pune",
                 description: "Single Core PVC Insulated Wire for panel wiring and electrical installations"
             },
             {
                 name: "Multicore Cable",
                 image: "https://5.imimg.com/data5/SELLER/Default/2025/5/508515937/CQ/UW/KS/192042816/mm-3-core-cable-price-per-meter-polycab.jpg",
-                alt: "Multicore Flexible Cable - Polycab Multi Core Wire Supplier",
+                alt: "Multicore Flexible Cable - Multi Core Wire Supplier",
                 description: "Multi Core Flexible Cable for control panel and industrial wiring applications"
             },
             {
@@ -144,13 +136,13 @@ export const productsData = [
             {
                 name: "Copper Armoured Cable",
                 image: "https://5.imimg.com/data5/SELLER/Default/2021/5/TG/KW/XQ/43090661/polycab-armoured-cable-500x500-500x500.jpg",
-                alt: "Copper Armoured Cable - Polycab LT HT Cable Stockist Pune",
-                description: "Copper Armoured Power Cable - trusted Polycab supplier for LT HT applications"
+                alt: "Copper Armoured Cable - LT HT Cable Stockist Pune",
+                description: "Copper Armoured Power Cable - trusted supplier for LT HT applications"
             },
             {
                 name: "House Wires",
                 image: "https://5.imimg.com/data5/ANDROID/Default/2025/6/516495667/NB/EQ/SM/78546241/product-jpeg.jpg",
-                alt: "House Wiring Cable - Polycab Havells Residential Wire Dealer",
+                alt: "House Wiring Cable - Havells Residential Wire Dealer",
                 description: "Residential House Wiring Cable - FR LSH wires for safe home installations"
             }
         ]
@@ -214,10 +206,6 @@ export const productsData = [
             {
                 name: "TEKNIC",
                 logo: "https://media.licdn.com/dms/image/v2/C560BAQElSuTcfMEKxA/company-logo_200_200/company-logo_200_200/0/1633688559143?e=2147483647&v=beta&t=IU-NcnWR9ZBc5UKNkgiN1SDPy3-_P0g0dNZHUIS2xyE"
-            },
-            {
-                name: "Schneider",
-                logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Schneider_Electric_2007.svg/330px-Schneider_Electric_2007.svg.png?20150906005100"
             }
         ],
         products: [
@@ -458,18 +446,6 @@ export const highlightedCompanies = [
         name: "TEKNIC",
         logo: "https://media.licdn.com/dms/image/v2/C560BAQElSuTcfMEKxA/company-logo_200_200/company-logo_200_200/0/1633688559143?e=2147483647&v=beta&t=IU-NcnWR9ZBc5UKNkgiN1SDPy3-_P0g0dNZHUIS2xyE",
         category: "Control & Signaling"
-    },
-    {
-        id: 4,
-        name: "SCHNEIDER",
-        logo: "https://iconape.com/wp-content/png_logo_vector/schneider-electric-logo.png",
-        category: "Switchgear & Automation"
-    },
-    {
-        id: 5,
-        name: "POLYCAB",
-        logo: "https://companieslogo.com/img/orig/POLYCAB.NS_BIG-75d2f870.png?t=1729362040",
-        category: "Wires & Cables"
     },
     {
         id: 6,

@@ -28,7 +28,7 @@ export default function Products() {
               Our Products
             </h1>
             <p className="text-base md:text-lg text-white/90 max-w-2xl mx-auto">
-              Comprehensive range of industrial electrical products - MCCB, ACB, RCCB, VFD drives, Polycab cables, control panel accessories, terminal blocks, busbar systems, and automation products. Trusted supplier of L&T, Schneider, Siemens in Pune
+              Comprehensive range of industrial electrical products - MCCB, ACB, RCCB, VFD drives, control panel accessories, terminal blocks, busbar systems, and automation products. Trusted supplier of L&T, Siemens in Pune
             </p>
           </div>
         </div>

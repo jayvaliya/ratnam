@@ -13,23 +13,7 @@ export const brands = [
     category: "Control & Signaling Devices",
     description: "Comprehensive range of control and signaling devices for industrial automation.",
     slug: "teknic",
-    image: "https://media.licdn.com/dms/image/v2/C560BAQElSuTcfMEKxA/company-logo_200_200/company-logo_200_200/0/1633688559143?e=1768435200&v=beta&t=vB3dwcib7lZzcy9LLtAWXQ5AWkBkplrq9guYJdPMoU8"
-  },
-  {
-    id: 3,
-    name: "Polycab",
-    category: "Wires & Cables",
-    description: "Polycab Wires & Cables: High-quality, durable solutions for all your wiring needs.",
-    slug: "polycab",
-    image: "https://companieslogo.com/img/orig/POLYCAB.NS_BIG-75d2f870.png?t=1729362040"
-  },
-  {
-    id: 4,
-    name: "Schneider",
-    category: "Switchgear & Protection",
-    description: "Complete range of switchgear and protection devices for industrial applications.",
-    slug: "schneider",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Schneider_Electric_2007.svg/330px-Schneider_Electric_2007.svg.png?20150906005100"
+    image: "https://monikaengineers.co.in/wp-content/uploads/2024/10/teknic-logo.jpg"
   },
   {
     id: 5,

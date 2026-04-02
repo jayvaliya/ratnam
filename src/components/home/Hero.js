@@ -6,9 +6,9 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 export default function Hero() {
   // Add your slider images here
   const slides = [
-    '/images/slides/slide1.png',
+    // '/images/slides/slide1.png',
     '/images/slides/slide2.png',
-    '/images/slides/slide3.png',
+    // '/images/slides/slide3.png',
     '/images/slides/slide4.png',
     '/images/slides/slide5.png',
     '/images/slides/slide6.png',

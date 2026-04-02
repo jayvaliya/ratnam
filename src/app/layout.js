@@ -19,13 +19,12 @@ export const metadata = {
     default: "Ratnam Enterprise - Industrial Electrical Supplier Pune | Switchgear, Cables & Control Panel Accessories",
     template: "%s | Ratnam Enterprise"
   },
-  description: "Leading industrial electrical equipment supplier in Pune. Trusted supplier of L&T Switchgear, Polycab cables, MCCB, ACB, VFD, control panel accessories, LT HT cables, terminal blocks, busbar systems & automation products. Wholesale B2B electrical goods distributor serving Pune, Maharashtra & India.",
+  description: "Leading industrial electrical equipment supplier in Pune. Trusted supplier of L&T Switchgear, MCCB, ACB, VFD, control panel accessories, LT HT cables, terminal blocks, busbar systems & automation products. Wholesale B2B electrical goods distributor serving Pune, Maharashtra & India.",
   keywords: [
     "industrial electrical supplier Pune",
     "electrical panel accessories supplier",
     "switchgear dealer Pune",
     "MCCB RCCB ACB supplier",
-    "Polycab dealer Pune",
     "L&T switchgear stockist",
     "control panel accessories shop",
     "VFD drive supplier",
@@ -56,8 +55,8 @@ export const metadata = {
     locale: 'en_IN',
     url: 'https://ratnam.org.in',
     siteName: 'Ratnam Enterprise',
-    title: 'Ratnam Enterprise - Industrial Electrical Supplier Pune | L&T, Polycab Trusted Supplier',
-    description: 'Top industrial electrical equipment supplier in Pune. Trusted supplier of L&T Switchgear & Polycab products. MCCB, ACB, VFD, cables, control panel accessories, automation products. Wholesale B2B electrical distributor.',
+    title: 'Ratnam Enterprise - Industrial Electrical Supplier Pune | L&T Trusted Supplier',
+    description: 'Top industrial electrical equipment supplier in Pune. Trusted supplier of L&T Switchgear products. MCCB, ACB, VFD, cables, control panel accessories, automation products. Wholesale B2B electrical distributor.',
     images: [
       {
         url: '/images/logos/logo.png',
@@ -70,7 +69,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Ratnam Enterprise - Industrial Electrical Supplier Pune',
-    description: 'Leading supplier of industrial electrical goods - L&T Switchgear, Polycab cables, MCCB, ACB, VFD, control panel accessories.',
+    description: 'Leading supplier of industrial electrical goods - L&T Switchgear, MCCB, ACB, VFD, control panel accessories.',
     images: ['/images/logos/logo.png'],
   },
   alternates: {
@@ -94,7 +93,7 @@ export default function RootLayout({ children }) {
     "url": "https://ratnam.org.in",
     "logo": "https://ratnam.org.in/images/logos/logo.png",
     "image": "https://ratnam.org.in/images/logos/logo.png",
-    "description": "Leading industrial electrical equipment supplier in Pune, specializing in switchgear, cables, control panel accessories, and automation products. Trusted supplier of L&T Switchgear and Polycab products.",
+    "description": "Leading industrial electrical equipment supplier in Pune, specializing in switchgear, cables, control panel accessories, and automation products. Trusted supplier of L&T Switchgear products.",
     "telephone": "+919429094277",
     "email": "sales@ratnam.org.in",
     "address": {

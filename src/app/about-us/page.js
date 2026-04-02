@@ -2,18 +2,17 @@ import { Award, Users, Heart } from 'lucide-react';
 
 export const metadata = {
   title: "About Us - Leading Industrial Electrical Supplier in Pune | Ratnam Enterprise",
-  description: "Ratnam Enterprise is a trusted industrial electrical equipment supplier based in Pune, Maharashtra. Reliable supplier of L&T Switchgear & Polycab products offering quality electrical goods, competitive pricing, and professional service across India.",
+  description: "Ratnam Enterprise is a trusted industrial electrical equipment supplier based in Pune, Maharashtra. Reliable supplier of L&T Switchgear products offering quality electrical goods, competitive pricing, and professional service across India.",
   keywords: [
     "industrial electrical supplier Pune",
     "L&T switchgear supplier",
-    "Polycab supplier Pune",
     "electrical goods distributor Pune",
     "industrial electrical companies Pune",
     "B2B electrical supplier Maharashtra"
   ],
   openGraph: {
     title: "About Ratnam Enterprise - Industrial Electrical Supplier Pune",
-    description: "Leading supplier of industrial electrical goods in Pune. Trusted supplier of L&T & Polycab products serving customers across India with quality products and professional service.",
+    description: "Leading supplier of industrial electrical goods in Pune. Trusted supplier of L&T products serving customers across India with quality products and professional service.",
     url: "https://ratnam.org.in/about-us",
   },
   alternates: {
@@ -55,7 +54,7 @@ export default function AboutUs() {
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
                 We specialize in supplying <strong>industrial electrical goods</strong> including <strong>MCCB, ACB, RCCB</strong>, control panel accessories, 
                 flexible wires, <strong>LT HT cables</strong>, VFD drives, terminal blocks, busbar systems, and automation products. As trusted dealers and stockists 
-                of premium brands like <strong>Lauritz Knudsen (L&T Switchgears)</strong>, <strong>Polycab</strong>, <strong>Schneider Electric</strong>, and 
+                of premium brands like <strong>Lauritz Knudsen (L&T Switchgears)</strong> and
                 <strong>Siemens</strong>, our commitment to quality products, competitive pricing, and customer satisfaction drives everything we do.
               </p>
             </div>
