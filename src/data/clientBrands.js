@@ -1,8 +1,16 @@
 export const clientBrands = [
-  { id: 1, name: "LAURITZ KNUDSEN", logo: "https://5.imimg.com/data5/SELLER/Default/2025/5/508283235/VO/OY/XJ/99665887/lk-logo-1000x1000.png" },
-  { id: 2, name: "CONNECTWELL", logo: "https://5.imimg.com/data5/SELLER/Default/2022/3/MA/LW/IE/4201148/datalogic-s50-pr-5-c01-pp-sensor-1000x1000.png" },
-  { id: 3, name: "TEKNIC", logo: "https://media.licdn.com/dms/image/v2/C560BAQElSuTcfMEKxA/company-logo_200_200/company-logo_200_200/0/1633688559143?e=2147483647&v=beta&t=IU-NcnWR9ZBc5UKNkgiN1SDPy3-_P0g0dNZHUIS2xyE" },
-  { id: 6, name: "SIEMENS", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Siemens_AG_logo.svg/1200px-Siemens_AG_logo.svg.png" },
-  { id: 7, name: "Crompton", logo: "https://iconape.com/wp-content/files/mm/382407/svg/382407.svg" },
-  { id: 8, name: "TEKNIC EUCHNER", logo: "https://media.licdn.com/dms/image/v2/C560BAQElSuTcfMEKxA/company-logo_200_200/company-logo_200_200/0/1633688559143?e=2147483647&v=beta&t=IU-NcnWR9ZBc5UKNkgiN1SDPy3-_P0g0dNZHUIS2xyE" }
+  { id: 1, name: "LAURITZ KNUDSEN", logo: "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Fb0396db6a59b4a469e5f9c3b0cc7e8df" },
+  { id: 2, name: "Siemens", logo: "https://i0.wp.com/cemanet.org/wp-content/uploads/2023/01/Color-Siemens-Logo.jpg?ssl=1" },
+  { id: 3, name: "CONNECTWELL", logo: "https://kishangroupelectricals.com/images/Terminals/connectwell.png" },
+  { id: 4, name: "TEKNIC", logo: "https://teknic.co.in/assets/images/logo.png" },
+  { id: 5, name: "SHAVISON", logo: "https://www.shavison.com/theme/default/img/logo.png" },
+  { id: 6, name: "TRINITY TOUCH", logo: "https://www.trinitytouch.com/wp-content/uploads/2024/08/trinitylogo-logo.png" },
+  { id: 7, name: "Crompton", logo: "https://upload.wikimedia.org/wikipedia/commons/9/93/Crompton_Greaves_Logo.png" },
+  { id: 8, name: "ANCHOR", logo: "https://upload.wikimedia.org/wikipedia/en/thumb/8/88/Anchor_by_Panasonic_logo.svg/1200px-Anchor_by_Panasonic_logo.svg.png" },
+  { id: 9, name: "Elettro", logo: "https://www.elettro.in/uploads/company/1002202213063210022022103455logo-1-removebg-preview.png" },
+  { id: 10, name: "DOWELLS", logo: "https://cdn.eleczo.com/media/catalog/product/d/o/dowells-images.webp?width=265&height=265&store=default&image-type=image" },
+  { id: 11, name: "SELEC", logo: "https://selec-europe.com/media/image/09/03/00/Selec_Logo.png" },
+  { id: 12, name: "FLUKE", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Fluke_Corporation_logo.svg/960px-Fluke_Corporation_logo.svg.png" },
+  { id: 13, name: "TAPARIA", logo: "https://res.cloudinary.com/djgqvtvkz/image/upload/v1743807423/Industrywaala%20brand/ilveg8od1wsq96ezev93.png" },
+  { id: 14, name: "BOSCH", logo: "https://images.seeklogo.com/logo-png/29/2/bosch-logo-png_seeklogo-298084.png" },
 ];

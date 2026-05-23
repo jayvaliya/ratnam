@@ -13,7 +13,7 @@ export const brands = [
     category: "Switchgear & Protection",
     description: "Advanced switchgear and protection solutions for reliable power distribution.",
     slug: "siemens",
-    image: "https://p7.hiclipart.com/preview/466/264/921/siemens-company-gartner-kitchens-by-walker-blakeley-hearing-aid-logo-thumbnail.jpg"
+    image: "https://i0.wp.com/cemanet.org/wp-content/uploads/2023/01/Color-Siemens-Logo.jpg?ssl=1"
   },
   {
     id: 3,

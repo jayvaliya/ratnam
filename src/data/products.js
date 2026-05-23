@@ -7,7 +7,7 @@ export const productsData = [
         companies: [
             {
                 name: "Siemens",
-                logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Siemens_AG_logo.svg/1200px-Siemens_AG_logo.svg.png"
+                logo: "https://i0.wp.com/cemanet.org/wp-content/uploads/2023/01/Color-Siemens-Logo.jpg?ssl=1"
             },
             {
                 name: "LAURITZ KNUDSEN",
@@ -490,7 +490,7 @@ export const highlightedCompanies = [
     {
         id: 6,
         name: "SIEMENS",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Siemens_AG_logo.svg/1200px-Siemens_AG_logo.svg.png",
+        logo: "https://i0.wp.com/cemanet.org/wp-content/uploads/2023/01/Color-Siemens-Logo.jpg?ssl=1",
         category: "Switchgear & Automation"
     },
     {
