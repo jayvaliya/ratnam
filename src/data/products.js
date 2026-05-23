@@ -203,6 +203,68 @@ export const productsData = [
     },
     {
         id: 5,
+        category: "Industrial & Commercial Lights",
+        slug: "industrial-commercial-lights",
+        description: "Complete range of Crompton industrial and commercial LED lighting solutions including flood lights, street lights, high bay lights, flameproof lights, panel lights, spot lights, battens, and lamps for industrial facilities and commercial spaces.",
+        companies: [
+            {
+                name: "Crompton",
+                logo: "https://iconape.com/wp-content/files/mm/382407/svg/382407.svg"
+            }
+        ],
+        products: [
+            {
+                name: "Flood Light",
+                image: "https://www.rjpune.com/brand/crompton/Flood_Light.jpg",
+                alt: "Crompton LED Flood Light - Industrial Outdoor Lighting Pune",
+                description: "High-performance LED flood lights for outdoor and industrial applications"
+            },
+            {
+                name: "Street Light",
+                image: "https://5.imimg.com/data5/SELLER/Default/2022/11/MG/YM/LO/15285220/crompton-led-street-light-500x500.jpg",
+                alt: "Crompton LED Street Light - Municipal Outdoor Lighting Supplier",
+                description: "Energy-efficient LED street lights for roads and municipal lighting"
+            },
+            {
+                name: "High Bay Light",
+                image: "https://5.imimg.com/data5/SELLER/Default/2023/5/311006094/GA/QP/LF/175083278/crompton-high-bay-light-500x500.jpg",
+                alt: "Crompton LED High Bay Light - Industrial Warehouse Lighting Pune",
+                description: "High bay LED lights for warehouses, factories, and large industrial spaces"
+            },
+            {
+                name: "Flam Proof Light",
+                image: "https://5.imimg.com/data5/SELLER/Default/2022/9/MR/LB/SG/23861935/crompton-flame-proof-light-500x500.jpg",
+                alt: "Crompton Flameproof Light - Hazardous Area Lighting Supplier Pune",
+                description: "Certified flameproof lights for hazardous and explosive environments"
+            },
+            {
+                name: "Panel Light",
+                image: "https://5.imimg.com/data5/SELLER/Default/2023/3/292282614/OW/UX/AX/175590648/crompton-led-panel-light-500x500.jpg",
+                alt: "Crompton LED Panel Light - Recessed Office Lighting Pune",
+                description: "Slim LED panel lights for offices, commercial spaces, and false ceilings"
+            },
+            {
+                name: "Spot / Down Light",
+                image: "https://5.imimg.com/data5/SELLER/Default/2023/6/319143800/OD/DG/XS/175590648/crompton-spot-down-light-500x500.jpg",
+                alt: "Crompton LED Spot Down Light - Retail Commercial Lighting",
+                description: "Directional LED spot and down lights for retail and commercial interiors"
+            },
+            {
+                name: "Batten",
+                image: "https://5.imimg.com/data5/SELLER/Default/2024/1/378467851/HQ/GJ/AY/175590648/crompton-led-batten-500x500.jpg",
+                alt: "Crompton LED Batten Light - Linear Tube Light Supplier Pune",
+                description: "LED batten and linear tube lights for industrial and commercial use"
+            },
+            {
+                name: "Lamp",
+                image: "https://5.imimg.com/data5/SELLER/Default/2022/7/PO/EM/KI/15285220/crompton-led-bulb-lamp-500x500.jpg",
+                alt: "Crompton LED Lamp Bulb - Energy Saving Light Supplier Pune",
+                description: "Energy-efficient LED lamps and bulbs for residential and commercial use"
+            }
+        ]
+    },
+    {
+        id: 6,
         category: "Control Panel Accessories and Other Products",
         slug: "control-panel-accessories",
         description: "Complete range of control panel accessories including cable glands, lugs, ferrules, DIN rails, cable ducts, panel cooling fans, relays, terminals, and electrical tools. One-stop shop for all panel wiring materials.",

@@ -53,7 +53,7 @@ export const brands = [
     category: "Electrical Products",
     description: "Premium electrical products for industrial and commercial applications.",
     slug: "crompton",
-    image: "https://upload.wikimedia.org/wikipedia/commons/9/93/Crompton_Greaves_Logo.png"
+    image: "https://iconape.com/wp-content/files/mm/382407/svg/382407.svg"
   },
   {
     id: 8,
@@ -70,45 +70,5 @@ export const brands = [
     description: "Industrial electrical components and solutions.",
     slug: "elettro",
     image: "https://www.elettro.in/uploads/company/1002202213063210022022103455logo-1-removebg-preview.png"
-  },
-  {
-    id: 10,
-    name: "DOWELLS",
-    category: "Wiring Solutions",
-    description: "Wiring solutions and cable management products.",
-    slug: "dowells",
-    image: "https://cdn.eleczo.com/media/catalog/product/d/o/dowells-images.webp?width=265&height=265&store=default&image-type=image"
-  },
-  {
-    id: 11,
-    name: "SELEC",
-    category: "Automation & Control",
-    description: "Automation and control products for industrial applications.",
-    slug: "selec",
-    image: "https://selec-europe.com/media/image/09/03/00/Selec_Logo.png"
-  },
-  {
-    id: 12,
-    name: "FLUKE",
-    category: "Test & Measurement",
-    description: "Professional test and measurement instruments.",
-    slug: "fluke",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Fluke_Corporation_logo.svg/960px-Fluke_Corporation_logo.svg.png?_=20221208083844"
-  },
-  {
-    id: 13,
-    name: "TAPARIA",
-    category: "Hand Tools",
-    description: "Professional hand tools for electrical and industrial use.",
-    slug: "taparia",
-    image: "https://res.cloudinary.com/djgqvtvkz/image/upload/v1743807423/Industrywaala%20brand/ilveg8od1wsq96ezev93.png"
-  },
-  {
-    id: 14,
-    name: "BOSCH",
-    category: "Industrial Tools",
-    description: "Professional industrial tools and automation solutions.",
-    slug: "bosch",
-    image: "https://images.seeklogo.com/logo-png/29/2/bosch-logo-png_seeklogo-298084.png"
   }
 ];
