@@ -12,7 +12,6 @@ export default function BrandLogo({ company, size = 'md' }) {
       <div className={`${sizeClasses[size].logo} relative`}>
         <Image
           src={company.logo}
-        //   src={"https://1000logos.net/wp-content/uploads/2020/04/Tata-Logo-1988-768x432.png"}
           alt={`${company.name} logo`}
           fill
           className="object-contain"

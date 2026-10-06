@@ -5,7 +5,7 @@ export const brands = [
     category: "Low-Voltage Switchgears",
     description: "Lauritz & Knudsen low-voltage switchgear for safe and efficient power control.",
     slug: "lauritz-knudsen",
-    image: "https://cdn.builder.io/api/v1/image/assets%2F9363b29032ef4e6598adee3414a78ba0%2Fb0396db6a59b4a469e5f9c3b0cc7e8df"
+    image: "/images/logos/lauritz-knudsen.png"
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const brands = [
     category: "Switchgear & Protection",
     description: "Advanced switchgear and protection solutions for reliable power distribution.",
     slug: "siemens",
-    image: "https://i0.wp.com/cemanet.org/wp-content/uploads/2023/01/Color-Siemens-Logo.jpg?ssl=1"
+    image: "/images/logos/siemens.png"
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const brands = [
     category: "Terminal Blocks & Connectors",
     description: "Interface Modules, DIN Rail Sockets, and Switches for versatile connectivity.",
     slug: "connectwell",
-    image: "https://kishangroupelectricals.com/images/Terminals/connectwell.png"
+    image: "/images/logos/connectwell.png"
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const brands = [
     category: "Control & Signaling Devices",
     description: "Comprehensive range of control and signaling devices for industrial automation.",
     slug: "teknic",
-    image: "https://teknic.co.in/assets/images/logo.png"
+    image: "/images/logos/teknic.png"
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ export const brands = [
     category: "Industrial Components",
     description: "Quality industrial components and accessories for electrical applications.",
     slug: "shavison",
-    image: "https://www.shavison.com/theme/default/img/logo.png"
+    image: "/images/logos/shavison.png"
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ export const brands = [
     category: "Industrial Automation",
     description: "Automation solutions and industrial control products.",
     slug: "trinity-touch",
-    image: "https://www.trinitytouch.com/wp-content/uploads/2024/08/trinitylogo-logo.png"
+    image: "/images/logos/trinity-touch.png"
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ export const brands = [
     category: "Electrical Products",
     description: "Premium electrical products for industrial and commercial applications.",
     slug: "crompton",
-    image: "https://iconape.com/wp-content/files/mm/382407/svg/382407.svg"
+    image: "/images/logos/crompton.png"
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ export const brands = [
     category: "Wiring Accessories",
     description: "Quality wiring accessories and switches for electrical installations.",
     slug: "anchor",
-    image: "https://en.wikipedia.org/wiki/File:Anchor_by_Panasonic_logo.svg"
+    image: "/images/logos/anchor.png"
   },
   {
     id: 9,
@@ -69,6 +69,6 @@ export const brands = [
     category: "Industrial Components",
     description: "Industrial electrical components and solutions.",
     slug: "elettro",
-    image: "https://www.elettro.in/uploads/company/1002202213063210022022103455logo-1-removebg-preview.png"
+    image: "/images/logos/elettro.png"
   }
 ];

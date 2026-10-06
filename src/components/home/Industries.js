@@ -7,32 +7,32 @@ export default function Industries() {
     {
       id: 1,
       name: 'Industrial',
-      image: 'https://images.pexels.com/photos/247763/pexels-photo-247763.jpeg'
+      image: '/images/industries/industrial.jpg'
     },
     {
       id: 2,
       name: 'Construction',
-      image: 'https://images.pexels.com/photos/439416/pexels-photo-439416.jpeg'
+      image: '/images/industries/construction.jpg'
     },
     {
       id: 3,
       name: 'Telecom',
-      image: 'https://images.pexels.com/photos/9290878/pexels-photo-9290878.jpeg'
+      image: '/images/industries/telecom.jpg'
     },
     {
       id: 4,
       name: 'Automotive & eMobility',
-      image: 'https://static.vecteezy.com/system/resources/thumbnails/038/535/094/small_2x/ai-generated-electric-car-production-line-innovative-manufacturing-in-a-modern-factory-photo.jpg'
+      image: '/images/industries/automotive.jpg'
     },
     {
       id: 5,
       name: 'Healthcare',
-      image: 'https://images.pexels.com/photos/236380/pexels-photo-236380.jpeg'
+      image: '/images/industries/healthcare.jpg'
     },
     {
       id: 6,
       name: 'Green Energy Industry',
-      image: 'https://www.treehugger.com/thmb/UECh99bo5Bh2xFVcvIJmH6jTCnY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/3-53bb8a02d2c744999ab6aa55d38c0063.jpg'
+      image: '/images/industries/green.jpg'
     }
   ];
 
