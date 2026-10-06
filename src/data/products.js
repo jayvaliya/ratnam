@@ -260,6 +260,12 @@ export const productsData = [
                 image: "/images/products/lamp.jpg",
                 alt: "Crompton LED Lamp Bulb - Energy Saving Light Supplier Pune",
                 description: "Energy-efficient LED lamps and bulbs for residential and commercial use"
+            },
+            {
+                name: "Many More...",
+                image: "/images/products/many-more.webp",
+                alt: "More Crompton LED Lighting Products - Industrial & Commercial Lights Pune",
+                description: "Many more Crompton lighting products available on request"
             }
         ]
     },

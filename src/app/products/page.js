@@ -1,22 +1,15 @@
 'use client';
 
-import { useState } from 'react';
 import { productsData, highlightedCompanies } from '@/data/products';
 import ProductCard from '@/components/products/ProductCard';
 import BrandLogo from '@/components/products/BrandLogo';
 import HighlightedBrands from '@/components/products/HighlightedBrands';
-import { BadgeCheck, Frown } from 'lucide-react';
+import { BadgeCheck } from 'lucide-react';
 
 // Note: Client components can't export metadata directly
 // For SEO, we'll use proper semantic HTML and structured data
 
 export default function Products() {
-  const [selectedCategory, setSelectedCategory] = useState('all');
-
-  const filteredCategories = selectedCategory === 'all' 
-    ? productsData 
-    : productsData.filter(category => category.slug === selectedCategory);
-
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
       {/* Page Header */}
@@ -37,48 +30,31 @@ export default function Products() {
       {/* Highlighted Companies */}
       <HighlightedBrands companies={highlightedCompanies} />
 
-      {/* Category Filter */}
-      <section className="py-8 md:py-12 bg-white shadow-md">
-        <div className="container mx-auto px-4">
-          <h3 className="text-center text-xs md:text-sm font-semibold text-gray-500 uppercase tracking-wide mb-4 md:mb-6">
-            Filter by Category
-          </h3>
-          <div className="flex flex-wrap gap-2 md:gap-3 justify-center max-w-6xl mx-auto">
-            <button
-              onClick={() => setSelectedCategory('all')}
-              className={`px-4 py-2 md:px-6 md:py-3 rounded-lg font-medium transition-all shadow-sm text-sm md:text-base ${
-                selectedCategory === 'all'
-                  ? 'bg-gradient-to-r from-secondary to-secondary-hover text-white shadow-lg scale-105'
-                  : 'bg-white text-gray-700 hover:bg-gray-50 border-2 border-gray-200 hover:border-secondary/30'
-              }`}
-            >
-              All Categories
-            </button>
+      {/* Category Jump Nav */}
+      <nav className="bg-white shadow-md">
+        <div className="container mx-auto px-4 py-3">
+          <div className="flex gap-2 md:gap-3 overflow-x-auto md:justify-center whitespace-nowrap">
             {productsData.map((category) => (
-              <button
+              <a
                 key={category.id}
-                onClick={() => setSelectedCategory(category.slug)}
-                className={`px-4 py-2 md:px-6 md:py-3 rounded-lg font-medium transition-all shadow-sm text-sm md:text-base ${
-                  selectedCategory === category.slug
-                    ? 'bg-gradient-to-r from-secondary to-secondary-hover text-white shadow-lg scale-105'
-                    : 'bg-white text-gray-700 hover:bg-gray-50 border-2 border-gray-200 hover:border-secondary/30'
-                }`}
+                href={`#${category.slug}`}
+                className="px-4 py-2 rounded-lg font-medium text-sm md:text-base bg-white text-gray-700 hover:bg-gray-50 border-2 border-gray-200 hover:border-secondary/30 transition-all shrink-0"
               >
                 {category.category}
-              </button>
+              </a>
             ))}
           </div>
         </div>
-      </section>
+      </nav>
 
       {/* Products by Category */}
       <section className="py-12 md:py-16 lg:py-20 bg-gradient-to-b from-gray-50 to-white">
         <div className="container mx-auto px-4">
-          {filteredCategories.map((category, categoryIndex) => (
+          {productsData.map((category, categoryIndex) => (
             <div 
               key={category.id} 
               id={category.slug} 
-              className={`mb-12 md:mb-16 lg:mb-20 ${categoryIndex !== 0 ? 'pt-8 md:pt-12 border-t-2 border-gray-200' : ''}`}
+              className={`scroll-mt-40 mb-12 md:mb-16 lg:mb-20 ${categoryIndex !== 0 ? 'pt-8 md:pt-12 border-t-2 border-gray-200' : ''}`}
             >
               {/* Category Header */}
               <div className="mb-6 md:mb-8 lg:mb-10">
@@ -117,21 +93,6 @@ export default function Products() {
               </div>
             </div>
           ))}
-
-          {filteredCategories.length === 0 && (
-            <div className="text-center py-20">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-gray-100 rounded-full mb-4">
-                <Frown className="w-8 h-8 text-gray-400" strokeWidth={2} />
-              </div>
-              <p className="text-gray-600 text-lg font-medium">No products found for the selected category.</p>
-              <button 
-                onClick={() => setSelectedCategory('all')}
-                className="mt-4 text-secondary hover:text-secondary-hover font-semibold"
-              >
-                View All Products
-              </button>
-            </div>
-          )}
         </div>
       </section>
     </div>
