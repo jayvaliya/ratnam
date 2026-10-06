@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import { productsData, highlightedCompanies } from '@/data/products';
 import ProductCard from '@/components/products/ProductCard';
 import BrandLogo from '@/components/products/BrandLogo';
@@ -10,6 +11,13 @@ import { BadgeCheck } from 'lucide-react';
 // For SEO, we'll use proper semantic HTML and structured data
 
 export default function Products() {
+  const [selectedCategory, setSelectedCategory] = useState('all');
+
+  const scrollToCategory = (slug) => {
+    setSelectedCategory(slug);
+    document.getElementById(slug === 'all' ? 'products-list' : slug)?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
       {/* Page Header */}
@@ -30,31 +38,48 @@ export default function Products() {
       {/* Highlighted Companies */}
       <HighlightedBrands companies={highlightedCompanies} />
 
-      {/* Category Jump Nav */}
-      <nav className="bg-white shadow-md">
-        <div className="container mx-auto px-4 py-3">
-          <div className="flex gap-2 md:gap-3 overflow-x-auto md:justify-center whitespace-nowrap">
+      {/* Category Filter */}
+      <section className="py-8 md:py-12 bg-white shadow-md">
+        <div className="container mx-auto px-4">
+          <h3 className="text-center text-xs md:text-sm font-semibold text-gray-500 uppercase tracking-wide mb-4 md:mb-6">
+            Filter by Category
+          </h3>
+          <div className="flex flex-wrap gap-2 md:gap-3 justify-center max-w-6xl mx-auto">
+            <button
+              onClick={() => scrollToCategory('all')}
+              className={`px-4 py-2 md:px-6 md:py-3 rounded-lg font-medium transition-all shadow-sm text-sm md:text-base ${
+                selectedCategory === 'all'
+                  ? 'bg-gradient-to-r from-secondary to-secondary-hover text-white shadow-lg scale-105'
+                  : 'bg-white text-gray-700 hover:bg-gray-50 border-2 border-gray-200 hover:border-secondary/30'
+              }`}
+            >
+              All Categories
+            </button>
             {productsData.map((category) => (
-              <a
+              <button
                 key={category.id}
-                href={`#${category.slug}`}
-                className="px-4 py-2 rounded-lg font-medium text-sm md:text-base bg-white text-gray-700 hover:bg-gray-50 border-2 border-gray-200 hover:border-secondary/30 transition-all shrink-0"
+                onClick={() => scrollToCategory(category.slug)}
+                className={`px-4 py-2 md:px-6 md:py-3 rounded-lg font-medium transition-all shadow-sm text-sm md:text-base ${
+                  selectedCategory === category.slug
+                    ? 'bg-gradient-to-r from-secondary to-secondary-hover text-white shadow-lg scale-105'
+                    : 'bg-white text-gray-700 hover:bg-gray-50 border-2 border-gray-200 hover:border-secondary/30'
+                }`}
               >
                 {category.category}
-              </a>
+              </button>
             ))}
           </div>
         </div>
-      </nav>
+      </section>
 
       {/* Products by Category */}
-      <section className="py-12 md:py-16 lg:py-20 bg-gradient-to-b from-gray-50 to-white">
+      <section id="products-list" className="scroll-mt-32 py-12 md:py-16 lg:py-20 bg-gradient-to-b from-gray-50 to-white">
         <div className="container mx-auto px-4">
           {productsData.map((category, categoryIndex) => (
             <div 
               key={category.id} 
               id={category.slug} 
-              className={`scroll-mt-40 mb-12 md:mb-16 lg:mb-20 ${categoryIndex !== 0 ? 'pt-8 md:pt-12 border-t-2 border-gray-200' : ''}`}
+              className={`scroll-mt-32 mb-12 md:mb-16 lg:mb-20 ${categoryIndex !== 0 ? 'pt-8 md:pt-12 border-t-2 border-gray-200' : ''}`}
             >
               {/* Category Header */}
               <div className="mb-6 md:mb-8 lg:mb-10">
