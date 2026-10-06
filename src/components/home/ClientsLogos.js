@@ -3,6 +3,11 @@
 import { clientBrands } from '@/data/clientBrands';
 import Image from 'next/image';
 
+// fixed pseudo-shuffles (no Math.random, avoids hydration mismatch); rows differ so no symmetry
+const shuffle = (k) => [...clientBrands].sort((a, b) => ((a.id * k) % 14) - ((b.id * k) % 14));
+const row1 = shuffle(3);
+const row2 = shuffle(5);
+
 export default function ClientsLogos() {
   return (
     <section className="py-12 md:py-16 lg:py-20 bg-transparent overflow-hidden">
@@ -15,7 +20,7 @@ export default function ClientsLogos() {
         {/* First Row - scrolling left */}
         <div className="relative mb-4 md:mb-6 overflow-hidden">
           <div className="flex animate-scroll-left">
-            {[...clientBrands, ...clientBrands].map((brand, index) => (
+            {[...row1, ...row1].map((brand, index) => (
               <div 
                 key={`row1-${index}`}
                 className="flex-shrink-0 w-48 sm:w-56 md:w-64 mx-2 md:mx-3"
@@ -28,7 +33,7 @@ export default function ClientsLogos() {
                       fill
                       sizes="(max-width: 768px) 100vw, 256px"
                       className="object-contain"
-                      style={{ maxWidth: '100%', maxHeight: '100%' }}
+                      style={{ maxWidth: '100%', maxHeight: '100%', transform: `scale(${brand.scale ?? 1})` }}
                     />
                   </div>
                 </div>
@@ -40,7 +45,7 @@ export default function ClientsLogos() {
         {/* Second Row - scrolling right (opposite direction) */}
         <div className="relative overflow-hidden">
           <div className="flex animate-scroll-right">
-            {[...clientBrands, ...clientBrands].map((brand, index) => (
+            {[...row2, ...row2].map((brand, index) => (
               <div 
                 key={`row2-${index}`}
                 className="flex-shrink-0 w-48 sm:w-56 md:w-64 mx-2 md:mx-3"
@@ -53,7 +58,7 @@ export default function ClientsLogos() {
                       fill
                       sizes="(max-width: 768px) 100vw, 256px"
                       className="object-contain"
-                      style={{ maxWidth: '100%', maxHeight: '100%' }}
+                      style={{ maxWidth: '100%', maxHeight: '100%', transform: `scale(${brand.scale ?? 1})` }}
                     />
                   </div>
                 </div>
