@@ -227,7 +227,7 @@ export const productsData = [
             },
             {
                 name: "High Bay Light",
-                image: "/images/products/high-bay-light.jpg",
+                image: "/images/products/high-bay-light.png",
                 alt: "Crompton LED High Bay Light - Industrial Warehouse Lighting Pune",
                 description: "High bay LED lights for warehouses, factories, and large industrial spaces"
             },
@@ -239,25 +239,25 @@ export const productsData = [
             },
             {
                 name: "Panel Light",
-                image: "/images/products/panel-light.jpg",
+                image: "/images/products/panel-light.webp",
                 alt: "Crompton LED Panel Light - Recessed Office Lighting Pune",
                 description: "Slim LED panel lights for offices, commercial spaces, and false ceilings"
             },
             {
-                name: "Spot / Down Light",
-                image: "/images/products/spot-down-light.png",
+                name: "Spot | Down Light",
+                image: "/images/products/spot-down-light.webp",
                 alt: "Crompton LED Spot Down Light - Retail Commercial Lighting",
                 description: "Directional LED spot and down lights for retail and commercial interiors"
             },
             {
                 name: "Batten",
-                image: "/images/products/batten.jpg",
+                image: "/images/products/batten.webp",
                 alt: "Crompton LED Batten Light - Linear Tube Light Supplier Pune",
                 description: "LED batten and linear tube lights for industrial and commercial use"
             },
             {
                 name: "Lamp",
-                image: "/images/products/lamp.jpg",
+                image: "/images/products/lamp.webp",
                 alt: "Crompton LED Lamp Bulb - Energy Saving Light Supplier Pune",
                 description: "Energy-efficient LED lamps and bulbs for residential and commercial use"
             },
