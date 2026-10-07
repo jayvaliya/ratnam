@@ -13,7 +13,7 @@ export default function ClientsLogos() {
         </div>
 
         {/* First Row - scrolling left */}
-        <div className="relative mb-4 md:mb-6 overflow-hidden">
+        <div className="relative mb-3 md:mb-5 py-1 overflow-hidden">
           <div className="flex animate-scroll-left">
             {[...row1, ...row1].map((brand, index) => (
               <div 
@@ -38,7 +38,7 @@ export default function ClientsLogos() {
         </div>
 
         {/* Second Row - scrolling right (opposite direction) */}
-        <div className="relative overflow-hidden">
+        <div className="relative py-1 overflow-hidden">
           <div className="flex animate-scroll-right">
             {[...row2, ...row2].map((brand, index) => (
               <div 
