@@ -1,3 +1,5 @@
+'use client';
+
 import Link from 'next/link';
 import { brands } from '@/data/brands';
 import { MapPin, Mail, Phone, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
@@ -106,7 +108,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm">
-          <p>© 2025 Ratnam Enterprise. All rights reserved.</p>
+          <p>© <span suppressHydrationWarning>{new Date().getFullYear()}</span> Ratnam Enterprise. All rights reserved.</p>
         </div>
       </div>
     </footer>

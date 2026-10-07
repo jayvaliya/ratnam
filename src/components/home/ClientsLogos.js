@@ -1,12 +1,7 @@
 'use client';
 
-import { clientBrands } from '@/data/clientBrands';
+import { clientRow1 as row1, clientRow2 as row2 } from '@/data/clientBrands';
 import Image from 'next/image';
-
-// fixed pseudo-shuffles (no Math.random, avoids hydration mismatch); rows differ so no symmetry
-const shuffle = (k) => [...clientBrands].sort((a, b) => ((a.id * k) % 14) - ((b.id * k) % 14));
-const row1 = shuffle(3);
-const row2 = shuffle(5);
 
 export default function ClientsLogos() {
   return (
@@ -33,7 +28,7 @@ export default function ClientsLogos() {
                       fill
                       sizes="(max-width: 768px) 100vw, 256px"
                       className="object-contain"
-                      style={{ maxWidth: '100%', maxHeight: '100%', transform: `scale(${brand.scale ?? 1})` }}
+                      style={{ maxWidth: '100%', maxHeight: '100%' }}
                     />
                   </div>
                 </div>
@@ -58,7 +53,7 @@ export default function ClientsLogos() {
                       fill
                       sizes="(max-width: 768px) 100vw, 256px"
                       className="object-contain"
-                      style={{ maxWidth: '100%', maxHeight: '100%', transform: `scale(${brand.scale ?? 1})` }}
+                      style={{ maxWidth: '100%', maxHeight: '100%' }}
                     />
                   </div>
                 </div>
